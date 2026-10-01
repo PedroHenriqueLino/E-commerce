@@ -1,0 +1,235 @@
+.nav-content {
+    display: flex;
+    flex-direction: column;
+    background: #8B5CF6;
+    padding: 10px;
+    width: 100%;
+    max-width: 1200px;
+    margin: 0 auto;
+    box-sizing: border-box;
+}
+
+.nav-search {
+    margin: 0 auto;
+    box-sizing: border-box;
+    display: flex;
+    gap: 40px;
+    width: 100%;
+    max-width: 1200px;
+}
+
+@import url('https://fonts.googleapis.com/css2?family=Comic+Relief:wght@400;700&display=swap');
+
+.nav-search .logo {
+    display: flex;
+    align-items: center;
+    cursor: pointer;
+    gap: 7px;
+
+}
+
+.nav-search .logo span {
+    font-size: 18px;
+    font-weight: 400;
+    font-family: "Comic Relief", system-ui;
+}
+
+.nav-search .logo svg {
+    width: 50px;
+    height: 50px;
+    color: #430199;
+    background: #ffffff;
+    padding: 5px;
+    border-radius: 50%;
+}
+
+.nav-search .input {
+    display: flex;
+    position: relative;
+    align-items: center;
+    width: 750px;
+}
+
+.nav-search .input svg {
+    position: absolute;
+    color: gray;
+    left: 5px;
+    width: 20px;
+
+}
+
+.nav-search .input input {
+    padding: 8px 30px;
+    width: 100%;
+    max-width: 700px;
+    border-radius: 5px;
+    border: none;
+
+}
+
+.nav-search .input input:focus {
+    outline: none;
+    border: none;
+    box-shadow: none;
+}
+
+.nav-banner {
+    width: 300px;
+    height: 50px;
+    background-size: cover;
+    background-position: center;
+    background-repeat: no-repeat;
+    border-radius: 10px;
+    cursor: pointer;
+}
+
+.nav-actions {
+    width: 100%;
+    max-width: 834px;
+    margin: 0 auto;
+    box-sizing: border-box;
+    display: flex;
+    justify-content: space-between;
+    padding-top: 10px;
+    align-items: center;
+}
+
+.nav-actions ul {
+    display: flex;
+    gap: 40px;
+    list-style: none;
+}
+
+.nav-actions ul li {
+    cursor: pointer;
+    transition: color 0.2s ease;
+}
+
+.nav-actions ul li:hover {
+    color: #aeb0b5;
+}
+
+.nav-actions span {
+    cursor: pointer;
+}
+
+
+
+.nav-mobile-arrow {
+    display: none;
+}
+
+/*Sugestoes abaixo*/
+.search-suggestions {
+    position: absolute;
+    top: calc(100% + 5px);
+    left: 0;
+    width: 100%;
+    background: white;
+    border-radius: 5px;
+    box-shadow: 0 4px 12px rgba(0, 0, 0, 0.25);
+    overflow: hidden;
+    z-index: 1000;
+}
+
+.search-suggestions div {
+    padding: 10px 15px;
+    cursor: pointer;
+    color: #333;
+    transition: background 0.2s ease;
+}
+
+.search-suggestions div:hover {
+    background: #f0f0f0;
+}
+
+/*Sugestoes acima*/
+
+@media screen and (max-width: 573px) {
+
+    .nav-search {
+
+        gap: 15px;
+    }
+
+    .nav-banner {
+        width: 100%;
+    }
+}
+
+
+@media screen and (max-width: 461px) {
+
+    .nav-actions {
+        display: none;
+    }
+
+    .nav-mobile-arrow {
+        display: flex;
+        align-items: center;
+        gap: 10px;
+    }
+
+    .nav-search .logo span {
+        display: none;
+    }
+
+    .nav-search {
+
+        gap: 15px;
+    }
+
+    .nav-banner {
+        display: none;
+    }
+}
+
+/*mobile menu*/
+.mobile-menu {
+    display: none;
+}
+
+@media screen and (max-width: 440px) {
+
+    .nav-content {
+        padding: 0;
+        margin-top: 10px;
+
+    }
+
+    .nav-search .logo svg {
+        margin-left: 8px;
+    }
+
+    .mobile-menu {
+        display: flex;
+        width: 100%;
+        background: white;
+        margin-top: 10px;
+        height: auto;
+        box-sizing: border-box;
+        margin-bottom: 10px;
+    }
+
+    .mobile-menu ul {
+        display: flex;
+        flex-direction: column;
+        padding: 0px 0px 0px 20px;
+        margin: 0;
+        list-style: none;
+    }
+
+    .mobile-menu li {
+        padding: 18px 20px;
+        font-size: 1rem;
+        cursor: pointer;
+        display: flex;
+        align-items: center;
+        gap: 10px;
+    }
+
+    .mobile-menu li.selected {
+        color: #2563EB;
+    }
+
+}

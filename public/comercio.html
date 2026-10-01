@@ -1,0 +1,908 @@
+<!DOCTYPE html>
+<!-- saved from url=(0030)http://localhost:5173//product -->
+<html lang="en"><head><meta http-equiv="Content-Type" content="text/html; charset=UTF-8">
+    <script type="module">import { injectIntoGlobalHook } from "/@react-refresh";
+injectIntoGlobalHook(window);
+window.$RefreshReg$ = () => {};
+window.$RefreshSig$ = () => (type) => type;</script>
+
+    <script type="module" src="./comercio_files/client"></script>
+
+    
+    <link rel="icon" type="image/svg+xml" href="http://localhost:5173/favicon.svg">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>comercio</title>
+  <style type="text/css" data-vite-dev-id="D:/ESTUDOS/Projetos_Portifoli/E-comerce_EM_React/comercio/src/index.css">@import url('https://fonts.googleapis.com/css2?family=Inter:wght@400;500;600;700&display=swap');
+
+* {
+    padding: 0px;
+    margin: 0;
+    box-sizing: border-box;
+    font-family: 'Inter', sans-serif;
+}
+
+body {
+    margin: 0;
+    min-height: 100vh;
+
+    background: linear-gradient(to bottom,
+            #8B5CF6 0px,
+            #8B5CF6 600px,
+            #d0cfcf 800px);
+}
+
+@media screen and (max-width: 800px) {
+    body {
+        margin: 0;
+        min-height: 100vh;
+
+        background: linear-gradient(to bottom,
+                #8B5CF6 0px,
+                #8B5CF6 500px,
+                #d0cfcf 800px);
+    }
+
+}
+
+@media screen and (max-width: 461px) {
+    body {
+        margin: 0;
+        min-height: 100vh;
+
+        background: linear-gradient(to bottom,
+                #8B5CF6 0px,
+                #8B5CF6 300px,
+                #d0cfcf 800px);
+    }
+
+}</style><style type="text/css" data-vite-dev-id="D:/ESTUDOS/Projetos_Portifoli/E-comerce_EM_React/comercio/src/App.css">.routes {
+    width: 100%;
+    max-width: 1200px;
+    margin: 0 auto;
+}</style><style type="text/css" data-vite-dev-id="D:/ESTUDOS/Projetos_Portifoli/E-comerce_EM_React/comercio/src/Components/FooterFeitoPeloChatGpt/Footer.css">.footer {
+    width: 100%;
+    background: #4C1D95;
+    color: white;
+    margin-top: 50px;
+}
+
+.footer-content {
+    width: 100%;
+    max-width: 1200px;
+    margin: 0 auto;
+    padding: 40px 20px;
+    box-sizing: border-box;
+
+    display: flex;
+    justify-content: space-between;
+    gap: 40px;
+}
+
+.footer-section {
+    display: flex;
+    flex-direction: column;
+    gap: 10px;
+}
+
+.footer-section h3,
+.footer-section h4 {
+    margin: 0 0 5px;
+}
+
+.footer-section p {
+    max-width: 300px;
+    margin: 0;
+    line-height: 1.5;
+}
+
+.footer-section a {
+    color: white;
+    text-decoration: none;
+    font-size: 0.9rem;
+}
+
+.footer-section a:hover {
+    text-decoration: underline;
+}
+
+.footer-bottom {
+    border-top: 1px solid rgba(255, 255, 255, 0.2);
+    text-align: center;
+    padding: 15px 20px;
+}
+
+.footer-bottom p {
+    margin: 0;
+    font-size: 0.8rem;
+}</style><style type="text/css" data-vite-dev-id="D:/ESTUDOS/Projetos_Portifoli/E-comerce_EM_React/comercio/src/Components/NavBar/NavBar.css">.nav-content {
+    display: flex;
+    flex-direction: column;
+    background: #8B5CF6;
+    padding: 10px;
+    width: 100%;
+    max-width: 1200px;
+    margin: 0 auto;
+    box-sizing: border-box;
+}
+
+.nav-search {
+    margin: 0 auto;
+    box-sizing: border-box;
+    display: flex;
+    gap: 40px;
+    width: 100%;
+    max-width: 1200px;
+}
+
+.nav-search .logo {
+    display: flex;
+    align-items: center;
+    cursor: pointer;
+    gap: 7px;
+
+}
+
+.nav-search .logo span {
+    font-size: 18px;
+    font-weight: 400;
+    font-family: "Comic Relief", system-ui;
+}
+
+.nav-search .logo svg {
+    width: 50px;
+    height: 50px;
+    color: #430199;
+    background: #ffffff;
+    padding: 5px;
+    border-radius: 50%;
+}
+
+.nav-search .input {
+    display: flex;
+    position: relative;
+    align-items: center;
+    width: 750px;
+}
+
+.nav-search .input svg {
+    position: absolute;
+    color: gray;
+    left: 5px;
+    width: 20px;
+
+}
+
+.nav-search .input input {
+    padding: 8px 30px;
+    width: 100%;
+    max-width: 700px;
+    border-radius: 5px;
+    border: none;
+
+}
+
+.nav-search .input input:focus {
+    outline: none;
+    border: none;
+    box-shadow: none;
+}
+
+.nav-banner {
+    width: 300px;
+    height: 50px;
+    background-size: cover;
+    background-position: center;
+    background-repeat: no-repeat;
+    border-radius: 10px;
+    cursor: pointer;
+}
+
+.nav-actions {
+    width: 100%;
+    max-width: 834px;
+    margin: 0 auto;
+    box-sizing: border-box;
+    display: flex;
+    justify-content: space-between;
+    padding-top: 10px;
+    align-items: center;
+}
+
+.nav-actions ul {
+    display: flex;
+    gap: 40px;
+    list-style: none;
+}
+
+.nav-actions ul li {
+    cursor: pointer;
+    transition: color 0.2s ease;
+}
+
+.nav-actions ul li:hover {
+    color: #aeb0b5;
+}
+
+.nav-actions span {
+    cursor: pointer;
+}
+
+.nav-mobile-arrow {
+    display: none;
+}
+
+@media screen and (max-width: 573px) {
+
+    .nav-search {
+
+        gap: 15px;
+    }
+
+    .nav-banner {
+        width: 100%;
+    }
+}
+
+
+@media screen and (max-width: 461px) {
+
+    .nav-actions {
+        display: none;
+    }
+
+    .nav-mobile-arrow {
+        display: flex;
+        align-items: center;
+        gap: 10px;
+    }
+
+    .nav-search .logo span {
+        display: none;
+    }
+
+    .nav-search {
+
+        gap: 15px;
+    }
+
+    .nav-banner {
+        display: none;
+    }
+}</style><style type="text/css" data-vite-dev-id="D:/ESTUDOS/Projetos_Portifoli/E-comerce_EM_React/comercio/src/Components/BannerSlider/BannerSlider.css">.bannerslider-content {
+    position: relative;
+    width: 100%;
+    max-width: 1920px;
+    margin: 0 auto;
+    overflow: hidden;
+    box-shadow: 0 2px 8px rgba(0, 0, 0, 0.1);
+}
+
+.banners {
+    position: relative;
+    max-width: 1200px;
+    height: 350px;
+    margin: 0 auto;
+}
+
+.banners img {
+
+    position: absolute;
+
+    inset: 0;
+
+    width: 100%;
+
+    height: 350px;
+
+    object-fit: cover;
+
+    object-position: center;
+
+    opacity: 0;
+
+    visibility: hidden;
+
+    border-radius: 10px;
+
+}
+
+.banners img.active {
+
+    opacity: 1;
+
+    visibility: visible;
+
+}
+
+.bannerslider-content img.next {
+    animation: slideNext 0.4s ease;
+}
+
+.bannerslider-content img.prev {
+    animation: slidePrev 0.4s ease;
+}
+
+@keyframes slideNext {
+    from {
+        transform: translateX(100%);
+    }
+
+    to {
+        transform: translateX(0);
+    }
+}
+
+@keyframes slidePrev {
+    from {
+        transform: translateX(-100%);
+    }
+
+    to {
+        transform: translateX(0);
+    }
+}
+
+
+
+
+.banner-arrows {
+    position: absolute;
+    inset: 0;
+
+    display: none;
+
+    justify-content: space-between;
+    align-items: center;
+}
+
+.banners:hover .banner-arrows {
+    display: flex;
+}
+
+.banner-arrows .btn-left {
+    padding: 20px;
+    border: none;
+    border-radius: 0 30px 30px 0;
+    color: rgb(44, 131, 182);
+    cursor: pointer;
+}
+
+.banner-arrows .btn-right {
+    padding: 20px;
+    border: none;
+    border-radius: 30px 0 0 30px;
+    color: rgb(44, 131, 182);
+    cursor: pointer;
+}
+
+
+
+
+.banner-indicators {
+    position: absolute;
+
+    bottom: 10px;
+    left: 50%;
+
+    transform: translateX(-50%);
+
+    display: flex;
+    align-items: center;
+    gap: 6px;
+}
+
+.banner-indicators span {
+    width: 4px;
+    height: 4px;
+
+    padding: 2px;
+
+    background: rgba(0, 0, 0, 0.5);
+
+    border: 0.1px solid white;
+    border-radius: 50%;
+
+    transition: all 0.2s ease;
+}
+
+.banner-indicators span.active {
+    width: 10px;
+    height: 10px;
+
+    background: white;
+}
+
+
+
+@media screen and (max-width: 461px) {
+
+
+    .bannerslider-content {
+        width: 98%;
+        margin-top: 10px;
+        box-shadow: 0 0px 0px rgba(0, 0, 0, 0.0);
+    }
+
+    .banners {
+        height: 350px;
+        position: relative;
+    }
+
+    .banners img {
+        height: 250px;
+    }
+
+    .banner-indicators {
+        bottom: 110px;
+    }
+
+    .banners:hover .banner-arrows {
+        display: none;
+    }
+}</style><style type="text/css" data-vite-dev-id="D:/ESTUDOS/Projetos_Portifoli/E-comerce_EM_React/comercio/src/Components/ProductCard/ProductCard.css">.product-card-content {
+    display: flex;
+    flex-direction: column;
+    margin-top: 30px;
+}
+
+/*mais vendidos*/
+.mais-vendidos-content {
+    background: white;
+    padding: 20px;
+    width: 100%;
+    max-width: 1200px;
+    height: auto;
+
+    border-radius: 5px;
+    position: relative;
+
+    box-shadow: 0 2px 8px rgba(0, 0, 0, 0.2);
+}
+
+.cards {
+    display: flex;
+    gap: 1rem;
+    padding: 10px;
+
+    box-sizing: border-box;
+    overflow-x: auto;
+    overflow-y: hidden;
+
+    scrollbar-width: none;
+    cursor: pointer;
+}
+
+.cards::-webkit-scrollbar {
+    display: none;
+}
+
+.cards .info-card {
+    display: flex;
+    flex-direction: column;
+
+    width: 250px;
+    min-width: 250px;
+
+}
+
+.cards .info-card:hover {
+    p {
+        color: rgb(0, 170, 255);
+    }
+}
+
+.cards .info-card .card-img {
+    width: 100%;
+    height: 300px;
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: contain;
+    background-size: cover;
+}
+
+.cards .info-card p {
+    font-size: 1rem;
+    font-weight: 400;
+    overflow-wrap: break-word;
+    word-wrap: break-word;
+}
+
+.info-card .price {
+    display: flex;
+    align-items: center;
+    gap: 4px;
+    font-size: 1.3rem;
+
+}
+
+.info-card .price h4 {
+    font-size: 2rem;
+}
+
+.info-card .price span {
+    font-size: 15px;
+    margin-left: 2px;
+    border-left: .1px solid rgb(204, 200, 200);
+    font-weight: 100;
+    color: rgb(139, 137, 137);
+    overflow-wrap: break-word;
+    word-wrap: break-word;
+}
+
+.info-card span {
+    color: rgb(54, 212, 54);
+}
+
+.mais-vendidos-arrow {
+    display: flex;
+    justify-content: space-between;
+}
+
+.mais-vendidos-arrow button {
+    padding: 20px;
+    border-radius: 50%;
+    border: none;
+    cursor: pointer;
+    color: rgb(44, 131, 182);
+}
+
+.mais-vendidos-arrow button:hover {
+    box-shadow: 0 2px 8px rgba(0, 0, 0, 0.5);
+}
+
+.mais-vendidos-arrow .btn-left {
+    position: absolute;
+    left: 0;
+    top: 50%;
+    transform: translateY(-50%);
+}
+
+.mais-vendidos-arrow .btn-rght {
+    position: absolute;
+    right: 0;
+    top: 50%;
+    transform: translateY(-50%);
+}
+
+/*mais vendidos a cima*/
+
+/* OFERTA DO DIA */
+
+.oferta-do-dia {
+    display: flex;
+    width: 100%;
+    max-width: 1200px;
+    height: 300px;
+
+    margin-top: 20px;
+    margin-bottom: 20px;
+
+    background: white;
+    border-radius: 8px;
+    overflow: hidden;
+
+    position: relative;
+}
+
+.oferta-banner {
+    width: 27%;
+    height: 100%;
+
+    background-repeat: no-repeat;
+    background-size: contain;
+    background-color: rgb(209, 208, 208);
+    cursor: pointer;
+}
+
+.oferta-product {
+    display: flex;
+}
+
+.product-left {
+    padding: 10px;
+}
+
+.product-left .oferta-img {
+    margin-top: 10px;
+    width: 250px;
+    height: 85%;
+    border-radius: 5px;
+    background-repeat: no-repeat;
+    background-position: center;
+    background-size: cover;
+}
+
+.oferta-info {
+    margin-top: 40px;
+    margin-left: 10px;
+}
+
+.oferta-info span {
+    text-decoration: line-through;
+    text-decoration-thickness: 2px;
+}
+
+.oferta-info h1 {
+    margin-top: .8rem;
+}
+
+.oferta-info button {
+    margin-top: 10px;
+
+    padding: 10px 40px;
+    font-size: 1rem;
+    cursor: pointer;
+    border-radius: 10px;
+    transition: 0.2s ease;
+}
+
+.oferta-info button:hover {
+    box-shadow: 0 4px 12px rgba(0, 0, 0, 0.35);
+    transform: scale(1.05);
+}
+
+.oferta-do-dia p {
+    position: absolute;
+    right: 10px;
+    bottom: 5px;
+    align-items: center;
+    display: flex;
+
+    cursor: pointer;
+    color: rgb(14, 152, 202);
+}
+
+/*oferta do da a cima*/
+
+/*card produtos*/
+.products-grid {
+    background: white;
+    padding: 20px;
+    width: 100%;
+    max-width: 1200px;
+    height: auto;
+    border-radius: 5px;
+    box-sizing: border-box;
+    box-shadow: 0 2px 8px rgba(0, 0, 0, 0.2);
+
+    display: flex;
+    flex-wrap: wrap;
+    gap: 1rem;
+    justify-content: center;
+
+    position: relative;
+    padding-bottom: 50px;
+
+}
+
+.product-item {
+    display: flex;
+    flex-direction: column;
+    width: 180px;
+    cursor: pointer;
+}
+
+.product-item:hover p {
+    color: rgb(0, 170, 255);
+}
+
+.product-image {
+    width: 100%;
+    height: 200px;
+    background-position: center;
+    background-size: cover;
+}
+
+.product-item p {
+    font-size: 0.9rem;
+    font-weight: 400;
+    overflow-wrap: break-word;
+    word-wrap: break-word;
+    margin: 8px 0;
+}
+
+.product-price {
+    display: flex;
+    align-items: center;
+    gap: 3px;
+    font-size: 1rem;
+}
+
+.product-price h4 {
+    font-size: 1.4rem;
+    margin: 0;
+}
+
+.product-price span {
+    font-size: 12px;
+    margin-left: 2px;
+    border-left: .1px solid rgb(204, 200, 200);
+    font-weight: 100;
+    color: rgb(139, 137, 137);
+    overflow-wrap: break-word;
+    word-wrap: break-word;
+}
+
+.product-item>span {
+    color: rgb(54, 212, 54);
+    font-size: 12px;
+}
+
+.products-grid stroke {
+    display: flex;
+    align-items: center;
+    color: rgb(23, 151, 155);
+    cursor: pointer;
+
+    position: absolute;
+    bottom: 5px;
+    right: 5px;
+}
+
+/*card produtos a cima*/
+
+@media screen and (max-width: 834px) {
+    .product-card-content {
+        align-items: center;
+    }
+
+    .mais-vendidos-content {
+        width: 98%;
+        max-width: 1200px;
+    }
+
+    /* OFERTA DO DIA */
+
+    .oferta-do-dia {
+        width: 98%;
+    }
+
+    .oferta-banner {
+        width: 27%;
+        height: 100%;
+        background-position: center;
+        background-size: cover;
+        background-color: rgb(209, 208, 208);
+    }
+
+    .product-left .oferta-img {
+        width: 200px;
+    }
+
+    .oferta-info h2 {
+        font-size: 1.2rem;
+    }
+
+    .oferta-info h1 {
+        margin-top: .6rem;
+    }
+
+    /*oferta do dia a cima*/
+
+    /*produc card*/
+    .products-grid {
+        width: 98%;
+    }
+
+    /*product card a baixo*/
+}
+
+
+@media screen and (max-width: 750px) {
+    .product-card-content {
+        margin-top: -70px;
+    }
+
+    .cards .info-card {
+        width: 150px;
+        min-width: 150px;
+    }
+
+
+    .cards .info-card .card-img {
+        width: 100%;
+        height: 200px;
+    }
+
+    .cards .info-card p {
+        font-size: .8rem;
+    }
+
+    .info-card .price {
+        font-size: 1rem;
+    }
+
+    .info-card .price h4 {
+        font-size: 1.5rem;
+    }
+
+    .info-card .price span {
+        font-size: 10px;
+    }
+
+    .info-card span {
+        color: rgb(54, 212, 54);
+    }
+
+    .mais-vendidos-arrow {
+        display: none;
+    }
+}
+
+/*Oferta do dia*/
+
+@media screen and (max-width: 641px) {
+    .oferta-info button {
+        margin-top: 10px;
+
+        padding: 10px 10px;
+        font-size: 1rem;
+        cursor: pointer;
+        border-radius: 10px;
+        transition: 0.2s ease;
+    }
+
+    .product-item {
+        width: 45%;
+    }
+}
+
+
+
+@media screen and (max-width: 539px) {
+    .oferta-banner {
+        display: none;
+    }
+
+    .product-card-content {
+        align-items: center;
+    }
+
+    .mais-vendidos-content {
+        width: 98%;
+        max-width: 1200px;
+    }
+
+    /* OFERTA DO DIA */
+
+    .oferta-do-dia {
+        width: 98%;
+        height: 250px;
+    }
+
+    .product-left .oferta-img {
+        width: 150px;
+        height: 90%;
+    }
+
+    .oferta-info h2 {
+        font-size: 1rem;
+    }
+
+    .oferta-info h1 {
+        margin-top: .6rem;
+    }
+
+    .oferta-info button {
+        margin-top: 10px;
+
+        padding: 10px 10px;
+        font-size: .8rem;
+        cursor: pointer;
+        border-radius: 10px;
+        transition: 0.2s ease;
+    }
+
+    /*oferta do dia a cima*/
+
+    /*card dos produto*/
+    .product-item {
+        width: 45%;
+    }
+}</style></head>
+  <body>
+    <div id="root"><h2>Unexpected Application Error!</h2><h3 style="font-style: italic;">404 Not Found</h3><p>💿 Hey developer 👋</p><p>You can provide a way better UX than this when your app throws errors by providing your own <code style="padding: 2px 4px; background-color: rgba(200, 200, 200, 0.5);">ErrorBoundary</code> or <code style="padding: 2px 4px; background-color: rgba(200, 200, 200, 0.5);">errorElement</code> prop on your route.</p></div>
+    <script type="module" src="./comercio_files/main.jsx"></script>
+  
+
+</body></html>

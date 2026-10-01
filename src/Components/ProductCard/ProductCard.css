@@ -1,0 +1,469 @@
+.product-card-content {
+    display: flex;
+    flex-direction: column;
+    margin-top: 30px;
+
+}
+
+/*mais vendidos*/
+.mais-vendidos-content {
+    background: white;
+    padding: 20px;
+    width: 100%;
+    max-width: 1200px;
+    height: auto;
+
+    border-radius: 5px;
+    position: relative;
+
+    box-shadow: 0 2px 8px rgba(0, 0, 0, 0.2);
+}
+
+.mais-vendidos-content:hover {
+    .mais-vendidos-arrow {
+        display: flex;
+    }
+}
+
+.cards {
+    display: flex;
+    gap: 1rem;
+    padding: 10px;
+
+    box-sizing: border-box;
+    overflow-x: auto;
+    overflow-y: hidden;
+
+    scrollbar-width: none;
+    cursor: pointer;
+}
+
+.cards::-webkit-scrollbar {
+    display: none;
+}
+
+.cards .info-card {
+    display: flex;
+    flex-direction: column;
+
+    width: 250px;
+    min-width: 250px;
+
+}
+
+.cards .info-card:hover {
+    p {
+        color: rgb(0, 170, 255);
+    }
+}
+
+.cards .info-card .card-img {
+    width: 100%;
+    height: 300px;
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: contain;
+    background-size: cover;
+}
+
+.cards .info-card p {
+    font-size: 1rem;
+    font-weight: 400;
+    overflow-wrap: break-word;
+    word-wrap: break-word;
+}
+
+.info-card .price {
+    display: flex;
+    align-items: center;
+    gap: 4px;
+    font-size: 1.3rem;
+
+}
+
+.info-card .price h4 {
+    font-size: 2rem;
+}
+
+.info-card .price span {
+    font-size: 15px;
+    margin-left: 2px;
+    border-left: .1px solid rgb(204, 200, 200);
+    font-weight: 100;
+    color: rgb(139, 137, 137);
+    overflow-wrap: break-word;
+    word-wrap: break-word;
+}
+
+.info-card span {
+    color: rgb(54, 212, 54);
+}
+
+.mais-vendidos-arrow {
+    display: none;
+    justify-content: space-between;
+}
+
+.mais-vendidos-arrow button {
+    padding: 20px;
+    border-radius: 50%;
+    border: none;
+    cursor: pointer;
+    color: rgb(44, 131, 182);
+}
+
+.mais-vendidos-arrow button:hover {
+    box-shadow: 0 2px 8px rgba(0, 0, 0, 0.2);
+}
+
+.mais-vendidos-arrow .btn-left {
+    position: absolute;
+    left: 0;
+    top: 50%;
+    transform: translateY(-50%);
+}
+
+.mais-vendidos-arrow .btn-rght {
+    position: absolute;
+    right: 0;
+    top: 50%;
+    transform: translateY(-50%);
+}
+
+/*mais vendidos a cima*/
+
+/* OFERTA DO DIA */
+
+.oferta-do-dia {
+    display: flex;
+    width: 100%;
+    max-width: 1200px;
+    height: 300px;
+
+    margin-top: 20px;
+    margin-bottom: 20px;
+
+    background: white;
+    border-radius: 8px;
+    overflow: hidden;
+
+    position: relative;
+}
+
+.oferta-banner {
+    width: 27%;
+    height: 100%;
+
+    background-repeat: no-repeat;
+    background-size: contain;
+    background-color: rgb(209, 208, 208);
+    cursor: pointer;
+}
+
+.oferta-product {
+    display: flex;
+}
+
+.product-left {
+    padding: 10px;
+}
+
+.product-left .oferta-img {
+    margin-top: 10px;
+    width: 250px;
+    height: 85%;
+    border-radius: 5px;
+    background-repeat: no-repeat;
+    background-position: center;
+    background-size: cover;
+}
+
+.oferta-info {
+    margin-top: 40px;
+    margin-left: 10px;
+}
+
+.oferta-info span {
+    text-decoration: line-through;
+    text-decoration-thickness: 2px;
+}
+
+.oferta-info h1 {
+    margin-top: .8rem;
+}
+
+.oferta-info button {
+    margin-top: 10px;
+
+    padding: 10px 40px;
+    font-size: 1rem;
+    cursor: pointer;
+    border-radius: 10px;
+    transition: 0.2s ease;
+}
+
+.oferta-info button:hover {
+    box-shadow: 0 4px 12px rgba(0, 0, 0, 0.35);
+    transform: scale(1.05);
+}
+
+.oferta-do-dia p {
+    position: absolute;
+    right: 10px;
+    bottom: 5px;
+    align-items: center;
+    display: flex;
+
+    cursor: pointer;
+    color: rgb(14, 152, 202);
+}
+
+/*oferta do da a cima*/
+
+/*card produtos*/
+.products-grid {
+    background: white;
+    padding: 20px;
+    width: 100%;
+    max-width: 1200px;
+    height: auto;
+    border-radius: 5px;
+    box-sizing: border-box;
+    box-shadow: 0 2px 8px rgba(0, 0, 0, 0.2);
+    margin: 0 auto;
+
+    display: flex;
+    flex-wrap: wrap;
+    gap: 1rem;
+    justify-content: center;
+
+    position: relative;
+    padding-bottom: 50px;
+
+}
+
+.product-item {
+    display: flex;
+    flex-direction: column;
+    width: 180px;
+    cursor: pointer;
+}
+
+.product-item:hover p {
+    color: rgb(0, 170, 255);
+}
+
+.product-image {
+    width: 100%;
+    height: 200px;
+    background-position: center;
+    background-size: cover;
+}
+
+.product-item p {
+    font-size: 0.9rem;
+    font-weight: 400;
+    overflow-wrap: break-word;
+    word-wrap: break-word;
+    margin: 8px 0;
+}
+
+.product-price {
+    display: flex;
+    align-items: center;
+    gap: 3px;
+    font-size: 1rem;
+}
+
+.product-price h4 {
+    font-size: 1.4rem;
+    margin: 0;
+}
+
+.product-price span {
+    font-size: 12px;
+    margin-left: 2px;
+    border-left: .1px solid rgb(204, 200, 200);
+    font-weight: 100;
+    color: rgb(139, 137, 137);
+    overflow-wrap: break-word;
+    word-wrap: break-word;
+}
+
+.product-item>span {
+    color: rgb(54, 212, 54);
+    font-size: 12px;
+}
+
+.products-grid stroke {
+    display: flex;
+    align-items: center;
+    color: rgb(23, 151, 155);
+    cursor: pointer;
+
+    position: absolute;
+    bottom: 5px;
+    right: 5px;
+}
+
+/*card produtos a cima*/
+
+@media screen and (max-width: 834px) {
+    .product-card-content {
+        align-items: center;
+    }
+
+    .mais-vendidos-content {
+        width: 98%;
+        max-width: 1200px;
+    }
+
+    /* OFERTA DO DIA */
+
+    .oferta-do-dia {
+        width: 98%;
+    }
+
+    .oferta-banner {
+        width: 27%;
+        height: 100%;
+        background-position: center;
+        background-size: cover;
+        background-color: rgb(209, 208, 208);
+    }
+
+    .product-left .oferta-img {
+        width: 200px;
+    }
+
+    .oferta-info h2 {
+        font-size: 1.2rem;
+    }
+
+    .oferta-info h1 {
+        margin-top: .6rem;
+    }
+
+    /*oferta do dia a cima*/
+
+    /*produc card*/
+    .products-grid {
+        width: 98%;
+    }
+
+    /*product card a baixo*/
+}
+
+
+@media screen and (max-width: 750px) {
+    .product-card-content {
+        margin-top: -70px;
+    }
+
+    .cards .info-card {
+        width: 150px;
+        min-width: 150px;
+    }
+
+
+    .cards .info-card .card-img {
+        width: 100%;
+        height: 200px;
+    }
+
+    .cards .info-card p {
+        font-size: .8rem;
+    }
+
+    .info-card .price {
+        font-size: 1rem;
+    }
+
+    .info-card .price h4 {
+        font-size: 1.5rem;
+    }
+
+    .info-card .price span {
+        font-size: 10px;
+    }
+
+    .info-card span {
+        color: rgb(54, 212, 54);
+    }
+
+    .mais-vendidos-arrow {
+        display: none;
+    }
+}
+
+/*Oferta do dia*/
+
+@media screen and (max-width: 641px) {
+    .oferta-info button {
+        margin-top: 10px;
+
+        padding: 10px 10px;
+        font-size: 1rem;
+        cursor: pointer;
+        border-radius: 10px;
+        transition: 0.2s ease;
+    }
+
+    .product-item {
+        width: 45%;
+    }
+}
+
+
+
+@media screen and (max-width: 539px) {
+    .oferta-banner {
+        display: none;
+    }
+
+    .product-card-content {
+        align-items: center;
+    }
+
+    .mais-vendidos-content {
+        width: 98%;
+        max-width: 1200px;
+    }
+
+    /* OFERTA DO DIA */
+
+    .oferta-do-dia {
+        width: 98%;
+        height: 250px;
+    }
+
+    .product-left .oferta-img {
+        width: 150px;
+        height: 90%;
+    }
+
+    .oferta-info h2 {
+        font-size: 1rem;
+    }
+
+    .oferta-info h1 {
+        margin-top: .6rem;
+    }
+
+    .oferta-info button {
+        margin-top: 10px;
+
+        padding: 10px 10px;
+        font-size: .8rem;
+        cursor: pointer;
+        border-radius: 10px;
+        transition: 0.2s ease;
+    }
+
+    /*oferta do dia a cima*/
+
+    /*card dos produto*/
+    .product-item {
+        width: 45%;
+    }
+}

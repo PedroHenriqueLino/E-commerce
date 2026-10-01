@@ -1,0 +1,172 @@
+.bannerslider-content {
+    position: relative;
+    width: 100%;
+    max-width: 1920px;
+    margin: 0 auto;
+    overflow: hidden;
+    box-shadow: 0 2px 8px rgba(0, 0, 0, 0.1);
+}
+
+.banners {
+    position: relative;
+    max-width: 1200px;
+    height: 350px;
+    margin: 0 auto;
+}
+
+.banners img {
+
+    position: absolute;
+
+    inset: 0;
+
+    width: 100%;
+
+    height: 350px;
+
+    object-fit: cover;
+
+    object-position: center;
+
+    opacity: 0;
+
+    visibility: hidden;
+
+    border-radius: 10px;
+
+}
+
+.banners img.active {
+
+    opacity: 1;
+
+    visibility: visible;
+
+}
+
+.bannerslider-content img.next {
+    animation: slideNext 0.4s ease;
+}
+
+.bannerslider-content img.prev {
+    animation: slidePrev 0.4s ease;
+}
+
+@keyframes slideNext {
+    from {
+        transform: translateX(100%);
+    }
+
+    to {
+        transform: translateX(0);
+    }
+}
+
+@keyframes slidePrev {
+    from {
+        transform: translateX(-100%);
+    }
+
+    to {
+        transform: translateX(0);
+    }
+}
+
+
+
+
+.banner-arrows {
+    position: absolute;
+    inset: 0;
+
+    display: none;
+
+    justify-content: space-between;
+    align-items: center;
+}
+
+.banners:hover .banner-arrows {
+    display: flex;
+}
+
+.banner-arrows .btn-left {
+    padding: 20px;
+    border: none;
+    border-radius: 0 30px 30px 0;
+    color: rgb(44, 131, 182);
+    cursor: pointer;
+}
+
+.banner-arrows .btn-right {
+    padding: 20px;
+    border: none;
+    border-radius: 30px 0 0 30px;
+    color: rgb(44, 131, 182);
+    cursor: pointer;
+}
+
+
+
+
+.banner-indicators {
+    position: absolute;
+
+    bottom: 10px;
+    left: 50%;
+
+    transform: translateX(-50%);
+
+    display: flex;
+    align-items: center;
+    gap: 6px;
+}
+
+.banner-indicators span {
+    width: 4px;
+    height: 4px;
+
+    padding: 2px;
+
+    background: rgba(0, 0, 0, 0.5);
+
+    border: 0.1px solid white;
+    border-radius: 50%;
+
+    transition: all 0.2s ease;
+}
+
+.banner-indicators span.active {
+    width: 10px;
+    height: 10px;
+
+    background: white;
+}
+
+
+
+@media screen and (max-width: 461px) {
+
+
+    .bannerslider-content {
+        width: 98%;
+        margin-top: 10px;
+        box-shadow: 0 0px 0px rgba(0, 0, 0, 0.0);
+    }
+
+    .banners {
+        height: 350px;
+        position: relative;
+    }
+
+    .banners img {
+        height: 250px;
+    }
+
+    .banner-indicators {
+        bottom: 110px;
+    }
+
+    .banners:hover .banner-arrows {
+        display: none;
+    }
+}

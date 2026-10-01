@@ -1,0 +1,2566 @@
+{
+  "promotions": [
+    {
+      "id": 1,
+      "image": "https://images.unsplash.com/photo-1441986300917-64674bd600d8?auto=format&fit=crop&w=1600&q=85"
+    },
+    {
+      "id": 2,
+      "image": "https://images.unsplash.com/photo-1556742049-0cfed4f6a45d?auto=format&fit=crop&w=1600&q=85"
+    },
+    {
+      "id": 3,
+      "image": "https://images.unsplash.com/photo-1607082349566-187342175e2f?auto=format&fit=crop&w=1600&q=85"
+    },
+    {
+      "id": 4,
+      "image": "https://images.unsplash.com/photo-1472851294608-062f824d29cc?auto=format&fit=crop&w=1600&q=85"
+    },
+    {
+      "id": 5,
+      "image": "https://images.unsplash.com/photo-1526170375885-4d8ecf77b99f?auto=format&fit=crop&w=1600&q=85"
+    },
+    {
+      "id": 6,
+      "image": "https://images.unsplash.com/photo-1497366754035-f200968a6e72?auto=format&fit=crop&w=1600&q=85"
+    },
+    {
+      "id": 7,
+      "image": "https://images.unsplash.com/photo-1516321318423-f06f85e504b3?auto=format&fit=crop&w=1600&q=85"
+    },
+    {
+      "id": 8,
+      "image": "https://images.unsplash.com/photo-1523275335684-37898b6baf30?auto=format&fit=crop&w=1600&q=85"
+    },
+    {
+      "id": 9,
+      "image": "https://images.unsplash.com/photo-1503602642458-232111445657?auto=format&fit=crop&w=1600&q=85"
+    },
+    {
+      "id": 10,
+      "image": "https://images.unsplash.com/photo-1519947486511-46149fa0a254?auto=format&fit=crop&w=1600&q=85"
+    },
+    {
+      "id": 11,
+      "image": "https://images.unsplash.com/photo-1555529669-e69e7aa0ba9a?auto=format&fit=crop&w=1600&q=85"
+    },
+    {
+      "id": 12,
+      "image": "https://images.unsplash.com/photo-1556740749-887f6717d7e4?auto=format&fit=crop&w=1600&q=85"
+    },
+    {
+      "id": 13,
+      "image": "https://images.unsplash.com/photo-1556740758-90de374c12ad?auto=format&fit=crop&w=1600&q=85"
+    },
+    {
+      "id": 14,
+      "image": "https://images.unsplash.com/photo-1607083206968-13611e3d76db?auto=format&fit=crop&w=1600&q=85"
+    },
+    {
+      "id": 15,
+      "image": "https://images.unsplash.com/photo-1607083206968-13611e3d76db?auto=format&fit=crop&w=1600&q=85"
+    }
+  ],
+  "products": [
+    {
+      "id": "1",
+      "store": "TechNova",
+      "sold": "+127 vendidos",
+      "title": "Headset Gamer HyperSound Pro",
+      "offerOfTheDay": true,
+      "price": 189.9,
+      "images": [
+        "https://images.unsplash.com/photo-1550745165-9bc0b252726f?auto=format&fit=crop&w=800&q=80",
+        "https://images.unsplash.com/photo-1542751371-adc38448a05e?auto=format&fit=crop&w=800&q=80",
+        "https://images.unsplash.com/photo-1593305841991-05c297ba4575?auto=format&fit=crop&w=800&q=80"
+      ],
+      "description": {
+        "title": "O que você precisa saber sobre este produto",
+        "items": [
+          "Headset gamer com áudio estéreo de alta qualidade para jogos, músicas e filmes.",
+          "Microfone integrado com captação de voz clara para comunicação durante as partidas.",
+          "Almofadas macias projetadas para proporcionar maior conforto durante longos períodos de uso.",
+          "Conexão compatível com computadores, notebooks e outros dispositivos com entrada de áudio.",
+          "Controle de volume integrado para facilitar os ajustes durante o uso.",
+          "Estrutura resistente e acabamento moderno para uso diário."
+        ]
+      },
+      "category": "games"
+    },
+    {
+      "id": "2",
+      "store": "Nuvora Store",
+      "sold": "+86 vendidos",
+      "title": "Smartphone Nova X8 256GB",
+      "offerOfTheDay": false,
+      "price": 2199.9,
+      "images": [
+        "https://images.unsplash.com/photo-1510557880182-3d4d3cba35a5?auto=format&fit=crop&w=800&q=80",
+        "https://images.unsplash.com/photo-1598327105666-5b89351aff97?auto=format&fit=crop&w=800&q=80",
+        "https://images.unsplash.com/photo-1556656793-08538906a9f8?auto=format&fit=crop&w=800&q=80"
+      ],
+      "description": {
+        "title": "O que você precisa saber sobre este produto",
+        "items": [
+          "Smartphone com armazenamento interno de 256GB para aplicativos, fotos, vídeos e arquivos.",
+          "Tela de alta resolução desenvolvida para oferecer boa qualidade de imagem e cores vibrantes.",
+          "Sistema de câmeras para registrar fotos e vídeos em diferentes situações.",
+          "Bateria projetada para acompanhar o uso diário do aparelho.",
+          "Conectividade Wi-Fi e Bluetooth para utilização com diversos dispositivos.",
+          "Design moderno com construção fina e confortável para uso cotidiano."
+        ]
+      },
+      "category": "celulares"
+    },
+    {
+      "id": "3",
+      "store": "Pixel House",
+      "sold": "+214 vendidos",
+      "title": "Teclado Mecânico RGB Thunder K87",
+      "offerOfTheDay": true,
+      "price": 249.9,
+      "images": [
+        "https://images.unsplash.com/photo-1524678606370-a47ad25cb82a?auto=format&fit=crop&w=800&q=80",
+        "https://images.unsplash.com/photo-1591488320449-011701bb6704?auto=format&fit=crop&w=800&q=80",
+        "https://images.unsplash.com/photo-1587829741301-dc798b83add3?auto=format&fit=crop&w=800&q=80"
+      ],
+      "description": {
+        "title": "O que você precisa saber sobre este produto",
+        "items": [
+          "Teclado mecânico compacto com layout desenvolvido para jogos e produtividade.",
+          "Iluminação RGB com diferentes efeitos para personalizar o visual do setup.",
+          "Teclas mecânicas com resposta rápida para proporcionar uma experiência de digitação mais precisa.",
+          "Construção resistente para suportar o uso frequente no dia a dia.",
+          "Conexão USB para utilização em computadores e notebooks compatíveis.",
+          "Formato compacto que ocupa menos espaço na mesa e facilita a organização do setup."
+        ]
+      },
+      "category": "perifericos"
+    },
+    {
+      "id": "4",
+      "store": "ByteLab",
+      "sold": "+193 vendidos",
+      "title": "Mouse Gamer Vortex M800",
+      "offerOfTheDay": false,
+      "price": 159.9,
+      "images": [
+        "https://images.unsplash.com/photo-1591488320449-011701bb6704?auto=format&fit=crop&w=800&q=80",
+        "https://images.unsplash.com/photo-1587829741301-dc798b83add3?auto=format&fit=crop&w=800&q=80",
+        "https://images.unsplash.com/photo-1527814050087-3793815479db?auto=format&fit=crop&w=800&q=80"
+      ],
+      "description": {
+        "title": "O que você precisa saber sobre este produto",
+        "items": [
+          "Mouse gamer desenvolvido para oferecer precisão durante jogos e tarefas do dia a dia.",
+          "Sensor óptico com boa resposta para movimentos rápidos.",
+          "Formato ergonômico pensado para proporcionar maior conforto.",
+          "Botões adicionais facilitam comandos e atalhos.",
+          "Conexão USB compatível com computadores e notebooks.",
+          "Construção resistente para uso frequente."
+        ]
+      },
+      "category": "perifericos"
+    },
+    {
+      "id": "5",
+      "store": "MegaTech",
+      "sold": "+74 vendidos",
+      "title": "Monitor Gamer UltraView 27 165Hz",
+      "offerOfTheDay": true,
+      "price": 1299.9,
+      "images": [
+        "https://images.unsplash.com/photo-1593642532400-2682810df593?auto=format&fit=crop&w=800&q=80",
+        "https://images.unsplash.com/photo-1593305841991-05c297ba4575?auto=format&fit=crop&w=800&q=80",
+        "https://images.unsplash.com/photo-1585790050230-5dd28404ccb9?auto=format&fit=crop&w=800&q=80"
+      ],
+      "description": {
+        "title": "O que você precisa saber sobre este produto",
+        "items": [
+          "Monitor de 27 polegadas desenvolvido para jogos e entretenimento.",
+          "Alta taxa de atualização proporciona movimentos mais fluidos.",
+          "Tela ampla oferece boa área de visualização.",
+          "Conexões modernas permitem utilização com diferentes computadores.",
+          "Design moderno combina com setups gamers.",
+          "Base projetada para oferecer estabilidade sobre a mesa."
+        ]
+      },
+      "category": "informatica"
+    },
+    {
+      "id": "6",
+      "store": "GameZone",
+      "sold": "+321 vendidos",
+      "title": "Controle Wireless PlayForce X",
+      "offerOfTheDay": false,
+      "price": 299.9,
+      "images": [
+        "https://images.unsplash.com/photo-1550745165-9bc0b252726f?auto=format&fit=crop&w=800&q=80",
+        "https://images.unsplash.com/photo-1542751371-adc38448a05e?auto=format&fit=crop&w=800&q=80",
+        "https://images.unsplash.com/photo-1593305841991-05c297ba4575?auto=format&fit=crop&w=800&q=80"
+      ],
+      "description": {
+        "title": "O que você precisa saber sobre este produto",
+        "items": [
+          "Controle sem fio desenvolvido para jogos em computadores e consoles compatíveis.",
+          "Botões responsivos facilitam comandos durante as partidas.",
+          "Formato ergonômico proporciona conforto durante longas sessões.",
+          "Conexão wireless reduz a quantidade de cabos sobre a mesa.",
+          "Bateria integrada permite utilização sem conexão constante.",
+          "Estrutura resistente para uso frequente."
+        ]
+      },
+      "category": "games"
+    },
+    {
+      "id": "7",
+      "store": "TechNova",
+      "sold": "+158 vendidos",
+      "title": "Webcam Full HD VisionCam 1080p",
+      "offerOfTheDay": true,
+      "price": 219.9,
+      "images": [
+        "https://images.unsplash.com/photo-1563298723-dcfebaa392e3?auto=format&fit=crop&w=800&q=80",
+        "https://images.unsplash.com/photo-1505740420928-5e560c06d30e?auto=format&fit=crop&w=800&q=80",
+        "https://images.unsplash.com/photo-1484704849700-f032a568e944?auto=format&fit=crop&w=800&q=80"
+      ],
+      "description": {
+        "title": "O que você precisa saber sobre este produto",
+        "items": [
+          "Webcam Full HD para chamadas de vídeo, aulas e transmissões.",
+          "Imagem em alta resolução proporciona boa qualidade visual.",
+          "Microfone integrado facilita a comunicação durante chamadas.",
+          "Conexão USB permite instalação simples.",
+          "Suporte ajustável facilita o posicionamento sobre monitores.",
+          "Compatível com diversos aplicativos de comunicação."
+        ]
+      },
+      "category": "perifericos"
+    },
+    {
+      "id": "8",
+      "store": "Nuvora Store",
+      "sold": "+91 vendidos",
+      "title": "Notebook AirBook 15 Ryzen 5",
+      "offerOfTheDay": false,
+      "price": 3299.9,
+      "images": [
+        "https://images.unsplash.com/photo-1517336714731-489689fd1ca8?auto=format&fit=crop&w=800&q=80",
+        "https://images.unsplash.com/photo-1496181133206-80ce9b88a853?auto=format&fit=crop&w=800&q=80",
+        "https://images.unsplash.com/photo-1541807084-5c52b6b3adef?auto=format&fit=crop&w=800&q=80"
+      ],
+      "description": {
+        "title": "O que você precisa saber sobre este produto",
+        "items": [
+          "Notebook desenvolvido para estudos, trabalho e entretenimento.",
+          "Processador moderno oferece bom desempenho para tarefas cotidianas.",
+          "Tela ampla facilita leitura e utilização de aplicativos.",
+          "Design portátil facilita o transporte.",
+          "Conectividade permite utilização de acessórios e periféricos.",
+          "Construção projetada para uso diário."
+        ]
+      },
+      "category": "informatica"
+    },
+    {
+      "id": "9",
+      "store": "Pixel House",
+      "sold": "+137 vendidos",
+      "title": "SSD NVMe SpeedCore 1TB",
+      "offerOfTheDay": true,
+      "price": 499.9,
+      "images": [
+        "https://images.unsplash.com/photo-1496181133206-80ce9b88a853?auto=format&fit=crop&w=800&q=80",
+        "https://images.unsplash.com/photo-1541807084-5c52b6b3adef?auto=format&fit=crop&w=800&q=80",
+        "https://images.unsplash.com/photo-1593642632823-8f785ba67e45?auto=format&fit=crop&w=800&q=80"
+      ],
+      "description": {
+        "title": "O que você precisa saber sobre este produto",
+        "items": [
+          "SSD NVMe de 1TB desenvolvido para armazenamento de arquivos e aplicativos.",
+          "Tecnologia de armazenamento oferece acesso rápido aos dados.",
+          "Formato compacto facilita a instalação em computadores compatíveis.",
+          "Capacidade de 1TB permite guardar jogos, documentos e mídias.",
+          "Indicado para upgrades de computadores e notebooks.",
+          "Construção sem partes móveis proporciona maior resistência."
+        ]
+      },
+      "category": "informatica"
+    },
+    {
+      "id": "10",
+      "store": "ByteLab",
+      "sold": "+245 vendidos",
+      "title": "Memória RAM DDR4 16GB 3200MHz",
+      "offerOfTheDay": false,
+      "price": 289.9,
+      "images": [
+        "https://images.unsplash.com/photo-1541807084-5c52b6b3adef?auto=format&fit=crop&w=800&q=80",
+        "https://images.unsplash.com/photo-1593642632823-8f785ba67e45?auto=format&fit=crop&w=800&q=80",
+        "https://images.unsplash.com/photo-1593642532400-2682810df593?auto=format&fit=crop&w=800&q=80"
+      ],
+      "description": {
+        "title": "O que você precisa saber sobre este produto",
+        "items": [
+          "Memória RAM de 16GB indicada para computadores compatíveis.",
+          "Frequência de 3200MHz oferece bom desempenho para multitarefas.",
+          "Pode melhorar a capacidade do sistema para executar vários aplicativos.",
+          "Instalação simples em placas-mãe compatíveis.",
+          "Indicada para jogos, estudos e produtividade.",
+          "Construção desenvolvida para funcionamento estável."
+        ]
+      },
+      "category": "informatica"
+    },
+    {
+      "id": "11",
+      "store": "MegaTech",
+      "sold": "+63 vendidos",
+      "title": "Placa de Vídeo Radeon RX 7600",
+      "offerOfTheDay": true,
+      "price": 1899.9,
+      "images": [
+        "https://images.unsplash.com/photo-1593642632823-8f785ba67e45?auto=format&fit=crop&w=800&q=80",
+        "https://images.unsplash.com/photo-1593642532400-2682810df593?auto=format&fit=crop&w=800&q=80",
+        "https://images.unsplash.com/photo-1593305841991-05c297ba4575?auto=format&fit=crop&w=800&q=80"
+      ],
+      "description": {
+        "title": "O que você precisa saber sobre este produto",
+        "items": [
+          "Placa de vídeo desenvolvida para jogos e aplicações gráficas.",
+          "Memória dedicada ajuda no processamento de imagens.",
+          "Sistema de refrigeração auxilia no controle da temperatura.",
+          "Compatível com computadores que possuem o slot adequado.",
+          "Indicada para jogos em alta resolução.",
+          "Construção robusta para uso prolongado."
+        ]
+      },
+      "category": "informatica"
+    },
+    {
+      "id": "12",
+      "store": "GameZone",
+      "sold": "+278 vendidos",
+      "title": "Mousepad Gamer XXL Black Edition",
+      "offerOfTheDay": false,
+      "price": 99.9,
+      "images": [
+        "https://images.unsplash.com/photo-1587829741301-dc798b83add3?auto=format&fit=crop&w=800&q=80",
+        "https://images.unsplash.com/photo-1527814050087-3793815479db?auto=format&fit=crop&w=800&q=80",
+        "https://images.unsplash.com/photo-1563298723-dcfebaa392e3?auto=format&fit=crop&w=800&q=80"
+      ],
+      "description": {
+        "title": "O que você precisa saber sobre este produto",
+        "items": [
+          "Mousepad XXL desenvolvido para setups gamers.",
+          "Superfície ampla permite movimentação confortável do mouse.",
+          "Base antiderrapante ajuda a manter o produto estável.",
+          "Acabamento resistente para utilização frequente.",
+          "Formato grande também acomoda parte do teclado.",
+          "Visual moderno combina com diferentes setups."
+        ]
+      },
+      "category": "perifericos"
+    },
+    {
+      "id": "13",
+      "store": "TechNova",
+      "sold": "+112 vendidos",
+      "title": "Microfone USB StreamVoice",
+      "offerOfTheDay": true,
+      "price": 349.9,
+      "images": [
+        "https://images.unsplash.com/photo-1527814050087-3793815479db?auto=format&fit=crop&w=800&q=80",
+        "https://images.unsplash.com/photo-1563298723-dcfebaa392e3?auto=format&fit=crop&w=800&q=80",
+        "https://images.unsplash.com/photo-1505740420928-5e560c06d30e?auto=format&fit=crop&w=800&q=80"
+      ],
+      "description": {
+        "title": "O que você precisa saber sobre este produto",
+        "items": [
+          "Microfone USB indicado para transmissões, chamadas e gravações.",
+          "Captação de voz projetada para oferecer clareza.",
+          "Conexão USB facilita a instalação em computadores.",
+          "Suporte proporciona posicionamento adequado sobre a mesa.",
+          "Design moderno combina com ambientes de criação.",
+          "Indicado para streamers, estudantes e criadores de conteúdo."
+        ]
+      },
+      "category": "perifericos"
+    },
+    {
+      "id": "14",
+      "store": "Nuvora Store",
+      "sold": "+184 vendidos",
+      "title": "Smartwatch FitTime Pro",
+      "offerOfTheDay": false,
+      "price": 399.9,
+      "images": [
+        "https://images.unsplash.com/photo-1585790050230-5dd28404ccb9?auto=format&fit=crop&w=800&q=80",
+        "https://images.unsplash.com/photo-1517336714731-489689fd1ca8?auto=format&fit=crop&w=800&q=80",
+        "https://images.unsplash.com/photo-1496181133206-80ce9b88a853?auto=format&fit=crop&w=800&q=80"
+      ],
+      "description": {
+        "title": "O que você precisa saber sobre este produto",
+        "items": [
+          "Smartwatch desenvolvido para acompanhar atividades do dia a dia.",
+          "Tela digital facilita a visualização das informações.",
+          "Conectividade Bluetooth permite integração com smartphones compatíveis.",
+          "Design compacto e confortável para utilização diária.",
+          "Bateria projetada para acompanhar a rotina do usuário.",
+          "Visual moderno combina com diferentes estilos."
+        ]
+      },
+      "category": "informatica"
+    },
+    {
+      "id": "15",
+      "store": "Pixel House",
+      "sold": "+96 vendidos",
+      "title": "Caixa de Som Bluetooth Boom X",
+      "offerOfTheDay": true,
+      "price": 229.9,
+      "images": [
+        "https://images.unsplash.com/photo-1517336714731-489689fd1ca8?auto=format&fit=crop&w=800&q=80",
+        "https://images.unsplash.com/photo-1496181133206-80ce9b88a853?auto=format&fit=crop&w=800&q=80",
+        "https://images.unsplash.com/photo-1541807084-5c52b6b3adef?auto=format&fit=crop&w=800&q=80"
+      ],
+      "description": {
+        "title": "O que você precisa saber sobre este produto",
+        "items": [
+          "Caixa de som Bluetooth portátil para músicas e entretenimento.",
+          "Conexão sem fio facilita o uso com smartphones e notebooks.",
+          "Formato compacto facilita o transporte.",
+          "Bateria integrada permite utilização sem tomada constante.",
+          "Controles externos facilitam ajustes durante a reprodução.",
+          "Construção resistente para utilização em diferentes ambientes."
+        ]
+      },
+      "category": "informatica"
+    },
+    {
+      "id": "16",
+      "store": "ByteLab",
+      "sold": "+157 vendidos",
+      "title": "Hub USB-C 7 em 1 MultiPort",
+      "offerOfTheDay": false,
+      "price": 139.9,
+      "images": [
+        "https://images.unsplash.com/photo-1550745165-9bc0b252726f?auto=format&fit=crop&w=800&q=80",
+        "https://images.unsplash.com/photo-1586953208448-b95a79798f07?auto=format&fit=crop&w=800&q=80",
+        "https://images.unsplash.com/photo-1609592424744-0c7a1c0f1e44?auto=format&fit=crop&w=800&q=80"
+      ],
+      "description": {
+        "title": "O que você precisa saber sobre este produto",
+        "items": [
+          "Hub USB-C com múltiplas portas para expansão de conectividade.",
+          "Permite conectar diferentes acessórios ao mesmo dispositivo.",
+          "Formato compacto facilita o transporte.",
+          "Conexão USB-C oferece instalação prática.",
+          "Indicado para notebooks e computadores compatíveis.",
+          "Estrutura leve para utilização em casa, escritório ou viagens."
+        ]
+      },
+      "category": "acessorios"
+    },
+    {
+      "id": "17",
+      "store": "MegaTech",
+      "sold": "+82 vendidos",
+      "title": "Teclado Sem Fio Slim Office",
+      "offerOfTheDay": true,
+      "price": 119.9,
+      "images": [
+        "https://images.unsplash.com/photo-1524678606370-a47ad25cb82a?auto=format&fit=crop&w=800&q=80",
+        "https://images.unsplash.com/photo-1591488320449-011701bb6704?auto=format&fit=crop&w=800&q=80",
+        "https://images.unsplash.com/photo-1587829741301-dc798b83add3?auto=format&fit=crop&w=800&q=80"
+      ],
+      "description": {
+        "title": "O que você precisa saber sobre este produto",
+        "items": [
+          "Teclado sem fio desenvolvido para produtividade e uso doméstico.",
+          "Formato slim ocupa pouco espaço sobre a mesa.",
+          "Conexão wireless reduz a quantidade de cabos.",
+          "Teclas projetadas para digitação confortável.",
+          "Design discreto combina com ambientes de trabalho.",
+          "Compatível com computadores e notebooks compatíveis."
+        ]
+      },
+      "category": "perifericos"
+    },
+    {
+      "id": "18",
+      "store": "GameZone",
+      "sold": "+69 vendidos",
+      "title": "Cadeira Gamer Thunder Seat",
+      "offerOfTheDay": false,
+      "price": 1099.9,
+      "images": [
+        "https://images.unsplash.com/photo-1593642632823-8f785ba67e45?auto=format&fit=crop&w=800&q=80",
+        "https://images.unsplash.com/photo-1593642532400-2682810df593?auto=format&fit=crop&w=800&q=80",
+        "https://images.unsplash.com/photo-1593305841991-05c297ba4575?auto=format&fit=crop&w=800&q=80"
+      ],
+      "description": {
+        "title": "O que você precisa saber sobre este produto",
+        "items": [
+          "Cadeira gamer desenvolvida para longos períodos sentado.",
+          "Encosto alto proporciona suporte durante a utilização.",
+          "Assento acolchoado oferece maior conforto.",
+          "Ajustes permitem adaptar a posição ao usuário.",
+          "Base resistente proporciona estabilidade.",
+          "Design gamer combina com setups modernos."
+        ]
+      },
+      "category": "informatica"
+    },
+    {
+      "id": "19",
+      "store": "TechNova",
+      "sold": "+231 vendidos",
+      "title": "Fone Bluetooth SoundAir TWS",
+      "offerOfTheDay": true,
+      "price": 179.9,
+      "images": [
+        "https://images.unsplash.com/photo-1593642532400-2682810df593?auto=format&fit=crop&w=800&q=80",
+        "https://images.unsplash.com/photo-1593305841991-05c297ba4575?auto=format&fit=crop&w=800&q=80",
+        "https://images.unsplash.com/photo-1585790050230-5dd28404ccb9?auto=format&fit=crop&w=800&q=80"
+      ],
+      "description": {
+        "title": "O que você precisa saber sobre este produto",
+        "items": [
+          "Fone TWS sem fio para músicas, vídeos e chamadas.",
+          "Conexão Bluetooth facilita a utilização com smartphones.",
+          "Estojo de carregamento acompanha os fones.",
+          "Formato compacto facilita o transporte.",
+          "Controles permitem comandar algumas funções diretamente.",
+          "Design confortável para utilização cotidiana."
+        ]
+      },
+      "category": "informatica"
+    },
+    {
+      "id": "20",
+      "store": "Nuvora Store",
+      "sold": "+143 vendidos",
+      "title": "Tablet ViewTab 11 128GB",
+      "offerOfTheDay": false,
+      "price": 999.9,
+      "images": [
+        "https://images.unsplash.com/photo-1593305841991-05c297ba4575?auto=format&fit=crop&w=800&q=80",
+        "https://images.unsplash.com/photo-1585790050230-5dd28404ccb9?auto=format&fit=crop&w=800&q=80",
+        "https://images.unsplash.com/photo-1517336714731-489689fd1ca8?auto=format&fit=crop&w=800&q=80"
+      ],
+      "description": {
+        "title": "O que você precisa saber sobre este produto",
+        "items": [
+          "Tablet com armazenamento de 128GB para aplicativos e arquivos.",
+          "Tela ampla facilita consumo de conteúdo e leitura.",
+          "Design fino facilita o transporte.",
+          "Conectividade permite utilização com acessórios compatíveis.",
+          "Câmeras integradas permitem chamadas e registros.",
+          "Indicado para estudos, entretenimento e produtividade."
+        ]
+      },
+      "category": "informatica"
+    },
+    {
+      "id": "21",
+      "store": "Pixel House",
+      "sold": "+118 vendidos",
+      "title": "Roteador Wi-Fi 6 TurboNet AX3000",
+      "offerOfTheDay": true,
+      "price": 429.9,
+      "images": [
+        "https://images.unsplash.com/photo-1585790050230-5dd28404ccb9?auto=format&fit=crop&w=800&q=80",
+        "https://images.unsplash.com/photo-1517336714731-489689fd1ca8?auto=format&fit=crop&w=800&q=80",
+        "https://images.unsplash.com/photo-1496181133206-80ce9b88a853?auto=format&fit=crop&w=800&q=80"
+      ],
+      "description": {
+        "title": "O que você precisa saber sobre este produto",
+        "items": [
+          "Roteador Wi-Fi desenvolvido para redes domésticas e pequenos escritórios.",
+          "Tecnologia Wi-Fi 6 oferece conectividade moderna.",
+          "Antenas auxiliam na distribuição do sinal.",
+          "Portas Ethernet permitem conexão de dispositivos por cabo.",
+          "Configuração pode ser realizada por interface compatível.",
+          "Design compacto facilita a instalação."
+        ]
+      },
+      "category": "informatica"
+    },
+    {
+      "id": "22",
+      "store": "ByteLab",
+      "sold": "+176 vendidos",
+      "title": "HD Externo PortableDrive 2TB",
+      "offerOfTheDay": false,
+      "price": 449.9,
+      "images": [
+        "https://images.unsplash.com/photo-1517336714731-489689fd1ca8?auto=format&fit=crop&w=800&q=80",
+        "https://images.unsplash.com/photo-1496181133206-80ce9b88a853?auto=format&fit=crop&w=800&q=80",
+        "https://images.unsplash.com/photo-1541807084-5c52b6b3adef?auto=format&fit=crop&w=800&q=80"
+      ],
+      "description": {
+        "title": "O que você precisa saber sobre este produto",
+        "items": [
+          "HD externo com 2TB de capacidade para armazenamento de arquivos.",
+          "Indicado para backups, fotos, vídeos e documentos.",
+          "Formato portátil facilita o transporte.",
+          "Conexão USB permite utilização em computadores compatíveis.",
+          "Instalação simples sem necessidade de montagem interna.",
+          "Estrutura compacta para utilização cotidiana."
+        ]
+      },
+      "category": "informatica"
+    },
+    {
+      "id": "23",
+      "store": "MegaTech",
+      "sold": "+58 vendidos",
+      "title": "Fonte ATX PowerMax 650W",
+      "offerOfTheDay": true,
+      "price": 359.9,
+      "images": [
+        "https://images.unsplash.com/photo-1496181133206-80ce9b88a853?auto=format&fit=crop&w=800&q=80",
+        "https://images.unsplash.com/photo-1541807084-5c52b6b3adef?auto=format&fit=crop&w=800&q=80",
+        "https://images.unsplash.com/photo-1593642632823-8f785ba67e45?auto=format&fit=crop&w=800&q=80"
+      ],
+      "description": {
+        "title": "O que você precisa saber sobre este produto",
+        "items": [
+          "Fonte ATX de 650W desenvolvida para computadores.",
+          "Fornece energia para os principais componentes do sistema.",
+          "Formato compatível com gabinetes que utilizam padrão ATX.",
+          "Sistema de ventilação auxilia na dissipação de calor.",
+          "Cabos permitem conexão dos componentes internos.",
+          "Indicada para computadores domésticos e gamers."
+        ]
+      },
+      "category": "informatica"
+    },
+    {
+      "id": "24",
+      "store": "GameZone",
+      "sold": "+127 vendidos",
+      "title": "Volante Gamer Racing Wheel GT",
+      "offerOfTheDay": false,
+      "price": 899.9,
+      "images": [
+        "https://images.unsplash.com/photo-1603481546238-487240415921?auto=format&fit=crop&w=800&q=80",
+        "https://images.unsplash.com/photo-1605901309584-818e25960a8f?auto=format&fit=crop&w=800&q=80",
+        "https://images.unsplash.com/photo-1550745165-9bc0b252726f?auto=format&fit=crop&w=800&q=80"
+      ],
+      "description": {
+        "title": "O que você precisa saber sobre este produto",
+        "items": [
+          "Volante gamer desenvolvido para jogos de corrida.",
+          "Formato inspirado em volantes automotivos proporciona maior imersão.",
+          "Botões integrados facilitam comandos durante as partidas.",
+          "Pedais permitem controle de aceleração e frenagem.",
+          "Estrutura projetada para utilização em mesas.",
+          "Compatível com plataformas e jogos suportados pelo equipamento."
+        ]
+      },
+      "category": "games"
+    },
+    {
+      "id": "25",
+      "store": "TechNova",
+      "sold": "+203 vendidos",
+      "title": "Ring Light LED Creator 26cm",
+      "offerOfTheDay": true,
+      "price": 129.9,
+      "images": [
+        "https://images.unsplash.com/photo-1591488320449-011701bb6704?auto=format&fit=crop&w=800&q=80",
+        "https://images.unsplash.com/photo-1587829741301-dc798b83add3?auto=format&fit=crop&w=800&q=80",
+        "https://images.unsplash.com/photo-1527814050087-3793815479db?auto=format&fit=crop&w=800&q=80"
+      ],
+      "description": {
+        "title": "O que você precisa saber sobre este produto",
+        "items": [
+          "Ring light LED para iluminação de vídeos, fotos e chamadas.",
+          "Formato circular distribui a iluminação de maneira uniforme.",
+          "Tamanho compacto facilita o posicionamento sobre mesas.",
+          "Controle de intensidade permite adaptar a iluminação.",
+          "Indicado para criadores de conteúdo e chamadas.",
+          "Estrutura leve facilita o transporte."
+        ]
+      },
+      "category": "perifericos"
+    },
+    {
+      "id": "26",
+      "store": "Nuvora Store",
+      "sold": "+71 vendidos",
+      "title": "Impressora Multifuncional EcoPrint",
+      "offerOfTheDay": false,
+      "price": 699.9,
+      "images": [
+        "https://images.unsplash.com/photo-1593642532400-2682810df593?auto=format&fit=crop&w=800&q=80",
+        "https://images.unsplash.com/photo-1593305841991-05c297ba4575?auto=format&fit=crop&w=800&q=80",
+        "https://images.unsplash.com/photo-1585790050230-5dd28404ccb9?auto=format&fit=crop&w=800&q=80"
+      ],
+      "description": {
+        "title": "O que você precisa saber sobre este produto",
+        "items": [
+          "Impressora multifuncional indicada para casa e escritório.",
+          "Permite realizar diferentes tarefas de impressão e digitalização.",
+          "Conexão facilita utilização com computadores compatíveis.",
+          "Design compacto ocupa pouco espaço.",
+          "Painel facilita o acesso às funções principais.",
+          "Indicada para documentos, trabalhos e atividades administrativas."
+        ]
+      },
+      "category": "informatica"
+    },
+    {
+      "id": "27",
+      "store": "Pixel House",
+      "sold": "+341 vendidos",
+      "title": "Cabo USB-C TurboCharge 2m",
+      "offerOfTheDay": true,
+      "price": 39.9,
+      "images": [
+        "https://images.unsplash.com/photo-1586953208448-b95a79798f07?auto=format&fit=crop&w=800&q=80",
+        "https://images.unsplash.com/photo-1609592424744-0c7a1c0f1e44?auto=format&fit=crop&w=800&q=80",
+        "https://images.unsplash.com/photo-1583394838336-acd977736f90?auto=format&fit=crop&w=800&q=80"
+      ],
+      "description": {
+        "title": "O que você precisa saber sobre este produto",
+        "items": [
+          "Cabo USB-C de 2 metros para conexão e carregamento.",
+          "Comprimento maior facilita utilização à distância.",
+          "Conectores desenvolvidos para uso frequente.",
+          "Pode ser utilizado com dispositivos compatíveis.",
+          "Formato flexível facilita organização.",
+          "Indicado para casa, escritório e viagens."
+        ]
+      },
+      "category": "acessorios"
+    },
+    {
+      "id": "28",
+      "store": "ByteLab",
+      "sold": "+219 vendidos",
+      "title": "Carregador GaN FastCharge 65W",
+      "offerOfTheDay": false,
+      "price": 179.9,
+      "images": [
+        "https://images.unsplash.com/photo-1609592424744-0c7a1c0f1e44?auto=format&fit=crop&w=800&q=80",
+        "https://images.unsplash.com/photo-1583394838336-acd977736f90?auto=format&fit=crop&w=800&q=80",
+        "https://images.unsplash.com/photo-1572569511254-d8f925fe2cbb?auto=format&fit=crop&w=800&q=80"
+      ],
+      "description": {
+        "title": "O que você precisa saber sobre este produto",
+        "items": [
+          "Carregador compacto com tecnologia GaN.",
+          "Potência de até 65W para dispositivos compatíveis.",
+          "Formato reduzido facilita o transporte.",
+          "Conexão USB-C permite utilização com diversos aparelhos.",
+          "Sistema desenvolvido para oferecer carregamento eficiente.",
+          "Indicado para smartphones, tablets e notebooks compatíveis."
+        ]
+      },
+      "category": "acessorios"
+    },
+    {
+      "id": "29",
+      "store": "MegaTech",
+      "sold": "+84 vendidos",
+      "title": "Placa-Mãe PrimeBoard B550",
+      "offerOfTheDay": true,
+      "price": 799.9,
+      "images": [
+        "https://images.unsplash.com/photo-1517336714731-489689fd1ca8?auto=format&fit=crop&w=800&q=80",
+        "https://images.unsplash.com/photo-1496181133206-80ce9b88a853?auto=format&fit=crop&w=800&q=80",
+        "https://images.unsplash.com/photo-1541807084-5c52b6b3adef?auto=format&fit=crop&w=800&q=80"
+      ],
+      "description": {
+        "title": "O que você precisa saber sobre este produto",
+        "items": [
+          "Placa-mãe desenvolvida para montagem de computadores compatíveis.",
+          "Oferece conexões para processador, memória e armazenamento.",
+          "Slots de expansão permitem adicionar componentes.",
+          "Portas traseiras facilitam conexão de periféricos.",
+          "Formato desenvolvido para gabinetes compatíveis.",
+          "Indicada para computadores domésticos e gamers."
+        ]
+      },
+      "category": "informatica"
+    },
+    {
+      "id": "30",
+      "store": "GameZone",
+      "sold": "+154 vendidos",
+      "title": "SSD Gamer FlashDrive 2TB",
+      "offerOfTheDay": false,
+      "price": 799.9,
+      "images": [
+        "https://images.unsplash.com/photo-1496181133206-80ce9b88a853?auto=format&fit=crop&w=800&q=80",
+        "https://images.unsplash.com/photo-1541807084-5c52b6b3adef?auto=format&fit=crop&w=800&q=80",
+        "https://images.unsplash.com/photo-1593642632823-8f785ba67e45?auto=format&fit=crop&w=800&q=80"
+      ],
+      "description": {
+        "title": "O que você precisa saber sobre este produto",
+        "items": [
+          "SSD de 2TB desenvolvido para armazenamento de jogos e arquivos.",
+          "Tecnologia de armazenamento proporciona acesso rápido aos dados.",
+          "Capacidade ampla permite instalar diversos aplicativos.",
+          "Indicado para upgrades de computadores.",
+          "Não possui partes móveis.",
+          "Compatível com sistemas que suportem o formato utilizado."
+        ]
+      },
+      "category": "informatica"
+    },
+    {
+      "id": "31",
+      "store": "TechNova",
+      "sold": "+198 vendidos",
+      "title": "Teclado Mecânico Blue Switch 60%",
+      "offerOfTheDay": true,
+      "price": 199.9,
+      "images": [
+        "https://images.unsplash.com/photo-1524678606370-a47ad25cb82a?auto=format&fit=crop&w=800&q=80",
+        "https://images.unsplash.com/photo-1591488320449-011701bb6704?auto=format&fit=crop&w=800&q=80",
+        "https://images.unsplash.com/photo-1587829741301-dc798b83add3?auto=format&fit=crop&w=800&q=80"
+      ],
+      "description": {
+        "title": "O que você precisa saber sobre este produto",
+        "items": [
+          "Teclado mecânico compacto com layout de 60%.",
+          "Switches mecânicos oferecem resposta tátil durante a digitação.",
+          "Formato reduzido libera espaço sobre a mesa.",
+          "Construção resistente para uso frequente.",
+          "Conexão USB facilita utilização em computadores.",
+          "Indicado para jogos e produtividade."
+        ]
+      },
+      "category": "perifericos"
+    },
+    {
+      "id": "32",
+      "store": "Nuvora Store",
+      "sold": "+267 vendidos",
+      "title": "Mouse Sem Fio ErgoClick",
+      "offerOfTheDay": false,
+      "price": 109.9,
+      "images": [
+        "https://images.unsplash.com/photo-1591488320449-011701bb6704?auto=format&fit=crop&w=800&q=80",
+        "https://images.unsplash.com/photo-1587829741301-dc798b83add3?auto=format&fit=crop&w=800&q=80",
+        "https://images.unsplash.com/photo-1527814050087-3793815479db?auto=format&fit=crop&w=800&q=80"
+      ],
+      "description": {
+        "title": "O que você precisa saber sobre este produto",
+        "items": [
+          "Mouse sem fio desenvolvido para produtividade.",
+          "Formato ergonômico proporciona conforto durante o uso.",
+          "Conexão wireless elimina cabos sobre a mesa.",
+          "Sensor óptico oferece precisão para tarefas diárias.",
+          "Botões silenciosos reduzem o ruído durante a utilização.",
+          "Design compacto facilita o transporte."
+        ]
+      },
+      "category": "perifericos"
+    },
+    {
+      "id": "33",
+      "store": "Pixel House",
+      "sold": "+129 vendidos",
+      "title": "Monitor OfficeView 24 Full HD",
+      "offerOfTheDay": true,
+      "price": 749.9,
+      "images": [
+        "https://images.unsplash.com/photo-1593642532400-2682810df593?auto=format&fit=crop&w=800&q=80",
+        "https://images.unsplash.com/photo-1593305841991-05c297ba4575?auto=format&fit=crop&w=800&q=80",
+        "https://images.unsplash.com/photo-1585790050230-5dd28404ccb9?auto=format&fit=crop&w=800&q=80"
+      ],
+      "description": {
+        "title": "O que você precisa saber sobre este produto",
+        "items": [
+          "Monitor Full HD de 24 polegadas para trabalho e estudos.",
+          "Tela oferece boa área de visualização.",
+          "Resolução Full HD proporciona imagens detalhadas.",
+          "Entradas permitem conexão com diferentes computadores.",
+          "Base proporciona estabilidade sobre a mesa.",
+          "Design discreto combina com escritórios."
+        ]
+      },
+      "category": "informatica"
+    },
+    {
+      "id": "34",
+      "store": "ByteLab",
+      "sold": "+92 vendidos",
+      "title": "Processador Ryzen 7 5700X",
+      "offerOfTheDay": false,
+      "price": 999.9,
+      "images": [
+        "https://images.unsplash.com/photo-1593305841991-05c297ba4575?auto=format&fit=crop&w=800&q=80",
+        "https://images.unsplash.com/photo-1585790050230-5dd28404ccb9?auto=format&fit=crop&w=800&q=80",
+        "https://images.unsplash.com/photo-1517336714731-489689fd1ca8?auto=format&fit=crop&w=800&q=80"
+      ],
+      "description": {
+        "title": "O que você precisa saber sobre este produto",
+        "items": [
+          "Processador desenvolvido para computadores de alto desempenho.",
+          "Vários núcleos permitem executar diferentes tarefas.",
+          "Indicado para jogos, produtividade e aplicações pesadas.",
+          "Compatível com placas-mãe específicas.",
+          "Pode ser utilizado em computadores gamers.",
+          "Requer sistema de refrigeração adequado."
+        ]
+      },
+      "category": "informatica"
+    },
+    {
+      "id": "35",
+      "store": "MegaTech",
+      "sold": "+61 vendidos",
+      "title": "Memória RAM DDR5 32GB 6000MHz",
+      "offerOfTheDay": true,
+      "price": 699.9,
+      "images": [
+        "https://images.unsplash.com/photo-1585790050230-5dd28404ccb9?auto=format&fit=crop&w=800&q=80",
+        "https://images.unsplash.com/photo-1517336714731-489689fd1ca8?auto=format&fit=crop&w=800&q=80",
+        "https://images.unsplash.com/photo-1496181133206-80ce9b88a853?auto=format&fit=crop&w=800&q=80"
+      ],
+      "description": {
+        "title": "O que você precisa saber sobre este produto",
+        "items": [
+          "Memória DDR5 com capacidade de 32GB.",
+          "Frequência de 6000MHz oferece alto desempenho.",
+          "Indicada para computadores modernos.",
+          "Pode auxiliar em multitarefas e jogos.",
+          "Instalação depende de placa-mãe compatível.",
+          "Construção desenvolvida para funcionamento estável."
+        ]
+      },
+      "category": "informatica"
+    },
+    {
+      "id": "36",
+      "store": "GameZone",
+      "sold": "+173 vendidos",
+      "title": "Headset Wireless BattleSound",
+      "offerOfTheDay": false,
+      "price": 429.9,
+      "images": [
+        "https://images.unsplash.com/photo-1505740420928-5e560c06d30e?auto=format&fit=crop&w=800&q=80",
+        "https://images.unsplash.com/photo-1484704849700-f032a568e944?auto=format&fit=crop&w=800&q=80",
+        "https://images.unsplash.com/photo-1524678606370-a47ad25cb82a?auto=format&fit=crop&w=800&q=80"
+      ],
+      "description": {
+        "title": "O que você precisa saber sobre este produto",
+        "items": [
+          "Headset wireless desenvolvido para jogos.",
+          "Conexão sem fio proporciona maior liberdade durante as partidas.",
+          "Microfone integrado facilita comunicação.",
+          "Almofadas oferecem conforto durante sessões prolongadas.",
+          "Controles no próprio headset facilitam ajustes.",
+          "Design gamer combina com diferentes setups."
+        ]
+      },
+      "category": "perifericos"
+    },
+    {
+      "id": "37",
+      "store": "TechNova",
+      "sold": "+145 vendidos",
+      "title": "Câmera de Segurança SmartCam 360",
+      "offerOfTheDay": true,
+      "price": 249.9,
+      "images": [
+        "https://images.unsplash.com/photo-1496181133206-80ce9b88a853?auto=format&fit=crop&w=800&q=80",
+        "https://images.unsplash.com/photo-1541807084-5c52b6b3adef?auto=format&fit=crop&w=800&q=80",
+        "https://images.unsplash.com/photo-1593642632823-8f785ba67e45?auto=format&fit=crop&w=800&q=80"
+      ],
+      "description": {
+        "title": "O que você precisa saber sobre este produto",
+        "items": [
+          "Câmera inteligente desenvolvida para monitoramento de ambientes.",
+          "Movimentação permite ampliar a área de visualização.",
+          "Conectividade facilita acesso às imagens.",
+          "Formato compacto permite instalação em diferentes locais.",
+          "Indicada para residências e pequenos escritórios.",
+          "Design discreto facilita a integração ao ambiente."
+        ]
+      },
+      "category": "informatica"
+    },
+    {
+      "id": "38",
+      "store": "Nuvora Store",
+      "sold": "+55 vendidos",
+      "title": "Smartphone GalaxyMax S24 512GB",
+      "offerOfTheDay": false,
+      "price": 3899.9,
+      "images": [
+        "https://images.unsplash.com/photo-1598327105666-5b89351aff97?auto=format&fit=crop&w=800&q=80",
+        "https://images.unsplash.com/photo-1556656793-08538906a9f8?auto=format&fit=crop&w=800&q=80",
+        "https://images.unsplash.com/photo-1567581935884-3349723552ca?auto=format&fit=crop&w=800&q=80"
+      ],
+      "description": {
+        "title": "O que você precisa saber sobre este produto",
+        "items": [
+          "Smartphone premium com 512GB de armazenamento.",
+          "Tela de alta resolução oferece boa qualidade visual.",
+          "Sistema de câmeras permite fotografar e gravar vídeos.",
+          "Bateria desenvolvida para uso cotidiano.",
+          "Conectividade moderna permite utilização com diversos acessórios.",
+          "Design fino e moderno."
+        ]
+      },
+      "category": "celulares"
+    },
+    {
+      "id": "39",
+      "store": "Pixel House",
+      "sold": "+226 vendidos",
+      "title": "Power Bank UltraCell 20000mAh",
+      "offerOfTheDay": true,
+      "price": 159.9,
+      "images": [
+        "https://images.unsplash.com/photo-1583394838336-acd977736f90?auto=format&fit=crop&w=800&q=80",
+        "https://images.unsplash.com/photo-1572569511254-d8f925fe2cbb?auto=format&fit=crop&w=800&q=80",
+        "https://images.unsplash.com/photo-1550745165-9bc0b252726f?auto=format&fit=crop&w=800&q=80"
+      ],
+      "description": {
+        "title": "O que você precisa saber sobre este produto",
+        "items": [
+          "Power bank com capacidade de 20000mAh.",
+          "Permite recarregar dispositivos longe de tomadas.",
+          "Formato portátil facilita o transporte.",
+          "Possui conexões para diferentes dispositivos compatíveis.",
+          "Indicado para viagens e utilização diária.",
+          "Estrutura compacta para facilitar o armazenamento."
+        ]
+      },
+      "category": "acessorios"
+    },
+    {
+      "id": "40",
+      "store": "ByteLab",
+      "sold": "+188 vendidos",
+      "title": "Adaptador Bluetooth USB 5.3",
+      "offerOfTheDay": false,
+      "price": 49.9,
+      "images": [
+        "https://images.unsplash.com/photo-1572569511254-d8f925fe2cbb?auto=format&fit=crop&w=800&q=80",
+        "https://images.unsplash.com/photo-1550745165-9bc0b252726f?auto=format&fit=crop&w=800&q=80",
+        "https://images.unsplash.com/photo-1586953208448-b95a79798f07?auto=format&fit=crop&w=800&q=80"
+      ],
+      "description": {
+        "title": "O que você precisa saber sobre este produto",
+        "items": [
+          "Adaptador Bluetooth USB para adicionar conectividade sem fio.",
+          "Formato compacto ocupa pouco espaço.",
+          "Conexão USB facilita a instalação.",
+          "Permite conectar dispositivos Bluetooth compatíveis.",
+          "Indicado para computadores sem Bluetooth integrado.",
+          "Fácil de transportar e utilizar."
+        ]
+      },
+      "category": "acessorios"
+    },
+    {
+      "id": "41",
+      "store": "MegaTech",
+      "sold": "+73 vendidos",
+      "title": "Gabinete Gamer Crystal Flow",
+      "offerOfTheDay": true,
+      "price": 599.9,
+      "images": [
+        "https://images.unsplash.com/photo-1593305841991-05c297ba4575?auto=format&fit=crop&w=800&q=80",
+        "https://images.unsplash.com/photo-1585790050230-5dd28404ccb9?auto=format&fit=crop&w=800&q=80",
+        "https://images.unsplash.com/photo-1517336714731-489689fd1ca8?auto=format&fit=crop&w=800&q=80"
+      ],
+      "description": {
+        "title": "O que você precisa saber sobre este produto",
+        "items": [
+          "Gabinete gamer desenvolvido para montagem de computadores.",
+          "Espaço interno permite instalação de diferentes componentes.",
+          "Painéis permitem visualizar o interior do computador.",
+          "Sistema de ventilação auxilia no fluxo de ar.",
+          "Design moderno combina com setups gamers.",
+          "Estrutura resistente para montagem segura."
+        ]
+      },
+      "category": "informatica"
+    },
+    {
+      "id": "42",
+      "store": "GameZone",
+      "sold": "+117 vendidos",
+      "title": "Controle Arcade Fighting Pro",
+      "offerOfTheDay": false,
+      "price": 379.9,
+      "images": [
+        "https://images.unsplash.com/photo-1542751371-adc38448a05e?auto=format&fit=crop&w=800&q=80",
+        "https://images.unsplash.com/photo-1593305841991-05c297ba4575?auto=format&fit=crop&w=800&q=80",
+        "https://images.unsplash.com/photo-1603481546238-487240415921?auto=format&fit=crop&w=800&q=80"
+      ],
+      "description": {
+        "title": "O que você precisa saber sobre este produto",
+        "items": [
+          "Controle arcade desenvolvido para jogos de luta.",
+          "Joystick facilita comandos direcionais.",
+          "Botões grandes proporcionam resposta rápida.",
+          "Formato inspirado em máquinas arcade.",
+          "Estrutura resistente para utilização frequente.",
+          "Indicado para jogadores que buscam experiência arcade."
+        ]
+      },
+      "category": "games"
+    },
+    {
+      "id": "43",
+      "store": "TechNova",
+      "sold": "+89 vendidos",
+      "title": "Microfone Condensador StudioMic",
+      "offerOfTheDay": true,
+      "price": 499.9,
+      "images": [
+        "https://images.unsplash.com/photo-1505740420928-5e560c06d30e?auto=format&fit=crop&w=800&q=80",
+        "https://images.unsplash.com/photo-1484704849700-f032a568e944?auto=format&fit=crop&w=800&q=80",
+        "https://images.unsplash.com/photo-1524678606370-a47ad25cb82a?auto=format&fit=crop&w=800&q=80"
+      ],
+      "description": {
+        "title": "O que você precisa saber sobre este produto",
+        "items": [
+          "Microfone condensador indicado para gravações e criação de conteúdo.",
+          "Cápsula projetada para captação detalhada de voz.",
+          "Estrutura de estúdio proporciona aparência profissional.",
+          "Compatível com equipamentos apropriados para sua conexão.",
+          "Indicado para podcasts, vídeos e gravações.",
+          "Construção desenvolvida para utilização frequente."
+        ]
+      },
+      "category": "perifericos"
+    },
+    {
+      "id": "44",
+      "store": "Nuvora Store",
+      "sold": "+67 vendidos",
+      "title": "Notebook ProBook 14 Intel i5",
+      "offerOfTheDay": false,
+      "price": 2899.9,
+      "images": [
+        "https://images.unsplash.com/photo-1496181133206-80ce9b88a853?auto=format&fit=crop&w=800&q=80",
+        "https://images.unsplash.com/photo-1541807084-5c52b6b3adef?auto=format&fit=crop&w=800&q=80",
+        "https://images.unsplash.com/photo-1593642632823-8f785ba67e45?auto=format&fit=crop&w=800&q=80"
+      ],
+      "description": {
+        "title": "O que você precisa saber sobre este produto",
+        "items": [
+          "Notebook desenvolvido para trabalho, estudos e produtividade.",
+          "Processador Intel Core oferece desempenho para tarefas cotidianas.",
+          "Tela de 14 polegadas facilita transporte.",
+          "Design compacto ocupa pouco espaço.",
+          "Conectividade permite utilização de diversos periféricos.",
+          "Indicado para estudantes e profissionais."
+        ]
+      },
+      "category": "informatica"
+    },
+    {
+      "id": "45",
+      "store": "Pixel House",
+      "sold": "+134 vendidos",
+      "title": "SSD SATA UltraSpeed 480GB",
+      "offerOfTheDay": true,
+      "price": 229.9,
+      "images": [
+        "https://images.unsplash.com/photo-1541807084-5c52b6b3adef?auto=format&fit=crop&w=800&q=80",
+        "https://images.unsplash.com/photo-1593642632823-8f785ba67e45?auto=format&fit=crop&w=800&q=80",
+        "https://images.unsplash.com/photo-1593642532400-2682810df593?auto=format&fit=crop&w=800&q=80"
+      ],
+      "description": {
+        "title": "O que você precisa saber sobre este produto",
+        "items": [
+          "SSD SATA de 480GB para armazenamento de arquivos.",
+          "Tecnologia SSD oferece acesso rápido aos dados.",
+          "Formato compacto facilita instalação.",
+          "Indicado para melhorar o armazenamento de computadores.",
+          "Não possui partes móveis.",
+          "Compatível com equipamentos que utilizem interface SATA."
+        ]
+      },
+      "category": "informatica"
+    },
+    {
+      "id": "46",
+      "store": "ByteLab",
+      "sold": "+241 vendidos",
+      "title": "Cooler para Processador FrostAir",
+      "offerOfTheDay": false,
+      "price": 189.9,
+      "images": [
+        "https://images.unsplash.com/photo-1593642632823-8f785ba67e45?auto=format&fit=crop&w=800&q=80",
+        "https://images.unsplash.com/photo-1593642532400-2682810df593?auto=format&fit=crop&w=800&q=80",
+        "https://images.unsplash.com/photo-1593305841991-05c297ba4575?auto=format&fit=crop&w=800&q=80"
+      ],
+      "description": {
+        "title": "O que você precisa saber sobre este produto",
+        "items": [
+          "Cooler desenvolvido para auxiliar na refrigeração do processador.",
+          "Ventoinha ajuda a movimentar o ar dentro do gabinete.",
+          "Estrutura compacta facilita a instalação.",
+          "Indicado para computadores compatíveis.",
+          "Construção desenvolvida para uso prolongado.",
+          "Pode auxiliar na manutenção de temperaturas adequadas."
+        ]
+      },
+      "category": "informatica"
+    },
+    {
+      "id": "47",
+      "store": "MegaTech",
+      "sold": "+48 vendidos",
+      "title": "Placa de Vídeo GeForce RTX 4060",
+      "offerOfTheDay": true,
+      "price": 2199.9,
+      "images": [
+        "https://images.unsplash.com/photo-1593642532400-2682810df593?auto=format&fit=crop&w=800&q=80",
+        "https://images.unsplash.com/photo-1593305841991-05c297ba4575?auto=format&fit=crop&w=800&q=80",
+        "https://images.unsplash.com/photo-1585790050230-5dd28404ccb9?auto=format&fit=crop&w=800&q=80"
+      ],
+      "description": {
+        "title": "O que você precisa saber sobre este produto",
+        "items": [
+          "Placa de vídeo desenvolvida para jogos e aplicações gráficas.",
+          "GPU dedicada oferece processamento gráfico independente.",
+          "Sistema de refrigeração auxilia no controle térmico.",
+          "Indicada para computadores gamers.",
+          "Compatível com monitores de diferentes resoluções.",
+          "Requer fonte e gabinete compatíveis."
+        ]
+      },
+      "category": "informatica"
+    },
+    {
+      "id": "48",
+      "store": "GameZone",
+      "sold": "+156 vendidos",
+      "title": "Teclado Gamer RGB Battle K60",
+      "offerOfTheDay": false,
+      "price": 229.9,
+      "images": [
+        "https://images.unsplash.com/photo-1527814050087-3793815479db?auto=format&fit=crop&w=800&q=80",
+        "https://images.unsplash.com/photo-1563298723-dcfebaa392e3?auto=format&fit=crop&w=800&q=80",
+        "https://images.unsplash.com/photo-1505740420928-5e560c06d30e?auto=format&fit=crop&w=800&q=80"
+      ],
+      "description": {
+        "title": "O que você precisa saber sobre este produto",
+        "items": [
+          "Teclado gamer desenvolvido para jogos e produtividade.",
+          "Iluminação RGB permite personalizar o visual.",
+          "Teclas projetadas para resposta rápida.",
+          "Conexão USB facilita instalação.",
+          "Construção resistente suporta utilização frequente.",
+          "Design gamer combina com diferentes setups."
+        ]
+      },
+      "category": "perifericos"
+    },
+    {
+      "id": "49",
+      "store": "TechNova",
+      "sold": "+287 vendidos",
+      "title": "Mousepad Speed XL Control",
+      "offerOfTheDay": true,
+      "price": 89.9,
+      "images": [
+        "https://images.unsplash.com/photo-1563298723-dcfebaa392e3?auto=format&fit=crop&w=800&q=80",
+        "https://images.unsplash.com/photo-1505740420928-5e560c06d30e?auto=format&fit=crop&w=800&q=80",
+        "https://images.unsplash.com/photo-1484704849700-f032a568e944?auto=format&fit=crop&w=800&q=80"
+      ],
+      "description": {
+        "title": "O que você precisa saber sobre este produto",
+        "items": [
+          "Mousepad XL desenvolvido para jogos e produtividade.",
+          "Superfície ampla permite movimentos maiores do mouse.",
+          "Base antiderrapante ajuda a manter estabilidade.",
+          "Material desenvolvido para utilização frequente.",
+          "Formato permite acomodar teclado e mouse.",
+          "Design discreto combina com diferentes mesas."
+        ]
+      },
+      "category": "perifericos"
+    },
+    {
+      "id": "50",
+      "store": "Nuvora Store",
+      "sold": "+104 vendidos",
+      "title": "Fone Bluetooth HeadFree ANC",
+      "offerOfTheDay": false,
+      "price": 299.9,
+      "images": [
+        "https://images.unsplash.com/photo-1517336714731-489689fd1ca8?auto=format&fit=crop&w=800&q=80",
+        "https://images.unsplash.com/photo-1496181133206-80ce9b88a853?auto=format&fit=crop&w=800&q=80",
+        "https://images.unsplash.com/photo-1541807084-5c52b6b3adef?auto=format&fit=crop&w=800&q=80"
+      ],
+      "description": {
+        "title": "O que você precisa saber sobre este produto",
+        "items": [
+          "Fone Bluetooth desenvolvido para músicas, vídeos e chamadas.",
+          "Tecnologia de cancelamento de ruído ajuda a reduzir sons externos.",
+          "Conexão sem fio facilita utilização com smartphones e notebooks.",
+          "Almofadas proporcionam conforto durante o uso.",
+          "Bateria integrada permite utilização sem cabos.",
+          "Design moderno indicado para uso cotidiano."
+        ]
+      },
+      "category": "informatica"
+    },
+    {
+      "id": "51",
+      "store": "ByteLab",
+      "sold": "+176 vendidos",
+      "title": "Processador Core i5 12400F",
+      "offerOfTheDay": true,
+      "price": 899.9,
+      "images": [
+        "https://images.unsplash.com/photo-1496181133206-80ce9b88a853?auto=format&fit=crop&w=800&q=80",
+        "https://images.unsplash.com/photo-1541807084-5c52b6b3adef?auto=format&fit=crop&w=800&q=80",
+        "https://images.unsplash.com/photo-1593642632823-8f785ba67e45?auto=format&fit=crop&w=800&q=80"
+      ],
+      "description": {
+        "title": "O que você precisa saber sobre este produto",
+        "items": [
+          "Processador desenvolvido para computadores de jogos, estudos e produtividade.",
+          "Arquitetura moderna oferece bom desempenho em diferentes aplicações.",
+          "Vários núcleos permitem executar múltiplas tarefas simultaneamente.",
+          "Compatível com placas-mãe específicas para a plataforma.",
+          "Indicado para computadores intermediários e gamers.",
+          "Requer sistema de refrigeração adequado para funcionamento."
+        ]
+      },
+      "category": "informatica"
+    },
+    {
+      "id": "52",
+      "store": "MegaTech",
+      "sold": "+93 vendidos",
+      "title": "Gabinete Gamer DarkFlow RGB",
+      "offerOfTheDay": false,
+      "price": 449.9,
+      "images": [
+        "https://images.unsplash.com/photo-1541807084-5c52b6b3adef?auto=format&fit=crop&w=800&q=80",
+        "https://images.unsplash.com/photo-1593642632823-8f785ba67e45?auto=format&fit=crop&w=800&q=80",
+        "https://images.unsplash.com/photo-1593642532400-2682810df593?auto=format&fit=crop&w=800&q=80"
+      ],
+      "description": {
+        "title": "O que você precisa saber sobre este produto",
+        "items": [
+          "Gabinete gamer desenvolvido para montagem de computadores.",
+          "Espaço interno permite acomodar diferentes componentes.",
+          "Iluminação RGB adiciona estilo ao setup.",
+          "Sistema de ventilação auxilia na circulação de ar.",
+          "Painel lateral facilita a visualização dos componentes.",
+          "Estrutura resistente para montagens domésticas e gamers."
+        ]
+      },
+      "category": "informatica"
+    },
+    {
+      "id": "53",
+      "store": "Pixel House",
+      "sold": "+218 vendidos",
+      "title": "Fone Gamer SonicBlast 7.1",
+      "offerOfTheDay": true,
+      "price": 279.9,
+      "images": [
+        "https://images.unsplash.com/photo-1593305841991-05c297ba4575?auto=format&fit=crop&w=800&q=80",
+        "https://images.unsplash.com/photo-1603481546238-487240415921?auto=format&fit=crop&w=800&q=80",
+        "https://images.unsplash.com/photo-1605901309584-818e25960a8f?auto=format&fit=crop&w=800&q=80"
+      ],
+      "description": {
+        "title": "O que você precisa saber sobre este produto",
+        "items": [
+          "Headset gamer desenvolvido para proporcionar uma experiência sonora imersiva.",
+          "Áudio surround virtual auxilia na percepção dos sons durante as partidas.",
+          "Microfone integrado facilita a comunicação com outros jogadores.",
+          "Almofadas macias oferecem conforto durante longas sessões.",
+          "Conexão USB facilita utilização em computadores compatíveis.",
+          "Estrutura resistente para uso frequente."
+        ]
+      },
+      "category": "games"
+    },
+    {
+      "id": "54",
+      "store": "TechNova",
+      "sold": "+142 vendidos",
+      "title": "Teclado Wireless Office Pro",
+      "offerOfTheDay": false,
+      "price": 149.9,
+      "images": [
+        "https://images.unsplash.com/photo-1587829741301-dc798b83add3?auto=format&fit=crop&w=800&q=80",
+        "https://images.unsplash.com/photo-1527814050087-3793815479db?auto=format&fit=crop&w=800&q=80",
+        "https://images.unsplash.com/photo-1563298723-dcfebaa392e3?auto=format&fit=crop&w=800&q=80"
+      ],
+      "description": {
+        "title": "O que você precisa saber sobre este produto",
+        "items": [
+          "Teclado sem fio desenvolvido para ambientes de trabalho.",
+          "Conexão wireless reduz a quantidade de cabos sobre a mesa.",
+          "Teclas confortáveis facilitam a digitação prolongada.",
+          "Formato compacto ajuda na organização do espaço.",
+          "Design discreto combina com escritórios modernos.",
+          "Compatível com computadores e notebooks compatíveis."
+        ]
+      },
+      "category": "perifericos"
+    },
+    {
+      "id": "55",
+      "store": "Nuvora Store",
+      "sold": "+87 vendidos",
+      "title": "Smart TV CrystalView 43 4K",
+      "offerOfTheDay": true,
+      "price": 1899.9,
+      "images": [
+        "https://images.unsplash.com/photo-1593305841991-05c297ba4575?auto=format&fit=crop&w=800&q=80",
+        "https://images.unsplash.com/photo-1585790050230-5dd28404ccb9?auto=format&fit=crop&w=800&q=80",
+        "https://images.unsplash.com/photo-1517336714731-489689fd1ca8?auto=format&fit=crop&w=800&q=80"
+      ],
+      "description": {
+        "title": "O que você precisa saber sobre este produto",
+        "items": [
+          "Smart TV de 43 polegadas com resolução 4K.",
+          "Tela de alta resolução oferece imagens detalhadas.",
+          "Sistema inteligente permite acesso a aplicativos de entretenimento.",
+          "Conectividade Wi-Fi facilita acesso a conteúdos online.",
+          "Entradas HDMI permitem conexão de consoles e computadores.",
+          "Design moderno combina com diferentes ambientes."
+        ]
+      },
+      "category": "informatica"
+    },
+    {
+      "id": "56",
+      "store": "GameZone",
+      "sold": "+254 vendidos",
+      "title": "Mouse Gamer Phantom 12000 DPI",
+      "offerOfTheDay": false,
+      "price": 219.9,
+      "images": [
+        "https://images.unsplash.com/photo-1563298723-dcfebaa392e3?auto=format&fit=crop&w=800&q=80",
+        "https://images.unsplash.com/photo-1505740420928-5e560c06d30e?auto=format&fit=crop&w=800&q=80",
+        "https://images.unsplash.com/photo-1484704849700-f032a568e944?auto=format&fit=crop&w=800&q=80"
+      ],
+      "description": {
+        "title": "O que você precisa saber sobre este produto",
+        "items": [
+          "Mouse gamer com sensor de alta precisão.",
+          "Diferentes níveis de sensibilidade permitem ajustar os movimentos.",
+          "Botões programáveis facilitam comandos durante jogos.",
+          "Formato ergonômico proporciona conforto.",
+          "Iluminação integrada adiciona estilo ao equipamento.",
+          "Conexão USB oferece instalação simples."
+        ]
+      },
+      "category": "perifericos"
+    },
+    {
+      "id": "57",
+      "store": "ByteLab",
+      "sold": "+119 vendidos",
+      "title": "SSD NVMe UltraSpeed 2TB",
+      "offerOfTheDay": true,
+      "price": 899.9,
+      "images": [
+        "https://images.unsplash.com/photo-1517336714731-489689fd1ca8?auto=format&fit=crop&w=800&q=80",
+        "https://images.unsplash.com/photo-1496181133206-80ce9b88a853?auto=format&fit=crop&w=800&q=80",
+        "https://images.unsplash.com/photo-1541807084-5c52b6b3adef?auto=format&fit=crop&w=800&q=80"
+      ],
+      "description": {
+        "title": "O que você precisa saber sobre este produto",
+        "items": [
+          "SSD NVMe com capacidade de 2TB para armazenamento.",
+          "Tecnologia NVMe oferece alta velocidade de acesso aos dados.",
+          "Capacidade ampla permite armazenar jogos e arquivos.",
+          "Formato compacto facilita instalação.",
+          "Indicado para upgrades de computadores.",
+          "Não possui partes móveis."
+        ]
+      },
+      "category": "informatica"
+    },
+    {
+      "id": "58",
+      "store": "MegaTech",
+      "sold": "+76 vendidos",
+      "title": "Placa-Mãe Gaming X570 Pro",
+      "offerOfTheDay": false,
+      "price": 1199.9,
+      "images": [
+        "https://images.unsplash.com/photo-1496181133206-80ce9b88a853?auto=format&fit=crop&w=800&q=80",
+        "https://images.unsplash.com/photo-1541807084-5c52b6b3adef?auto=format&fit=crop&w=800&q=80",
+        "https://images.unsplash.com/photo-1593642632823-8f785ba67e45?auto=format&fit=crop&w=800&q=80"
+      ],
+      "description": {
+        "title": "O que você precisa saber sobre este produto",
+        "items": [
+          "Placa-mãe desenvolvida para computadores gamers.",
+          "Oferece slots para memória, armazenamento e expansão.",
+          "Conectores permitem instalação de diferentes periféricos.",
+          "Sistema de alimentação desenvolvido para componentes compatíveis.",
+          "Formato adequado para gabinetes compatíveis.",
+          "Indicada para montagens de alto desempenho."
+        ]
+      },
+      "category": "informatica"
+    },
+    {
+      "id": "59",
+      "store": "Pixel House",
+      "sold": "+164 vendidos",
+      "title": "Câmera Digital PhotoMax 24MP",
+      "offerOfTheDay": true,
+      "price": 1799.9,
+      "images": [
+        "https://images.unsplash.com/photo-1541807084-5c52b6b3adef?auto=format&fit=crop&w=800&q=80",
+        "https://images.unsplash.com/photo-1593642632823-8f785ba67e45?auto=format&fit=crop&w=800&q=80",
+        "https://images.unsplash.com/photo-1593642532400-2682810df593?auto=format&fit=crop&w=800&q=80"
+      ],
+      "description": {
+        "title": "O que você precisa saber sobre este produto",
+        "items": [
+          "Câmera digital desenvolvida para fotografias e vídeos.",
+          "Sensor de alta resolução permite registrar imagens detalhadas.",
+          "Tela facilita visualização das fotografias.",
+          "Design portátil facilita transporte.",
+          "Controles permitem ajustar diferentes configurações.",
+          "Indicada para iniciantes e criadores de conteúdo."
+        ]
+      },
+      "category": "informatica"
+    },
+    {
+      "id": "60",
+      "store": "TechNova",
+      "sold": "+301 vendidos",
+      "title": "Carregador Turbo USB-C 30W",
+      "offerOfTheDay": false,
+      "price": 89.9,
+      "images": [
+        "https://images.unsplash.com/photo-1572569511254-d8f925fe2cbb?auto=format&fit=crop&w=800&q=80",
+        "https://images.unsplash.com/photo-1550745165-9bc0b252726f?auto=format&fit=crop&w=800&q=80",
+        "https://images.unsplash.com/photo-1586953208448-b95a79798f07?auto=format&fit=crop&w=800&q=80"
+      ],
+      "description": {
+        "title": "O que você precisa saber sobre este produto",
+        "items": [
+          "Carregador USB-C com potência de até 30W.",
+          "Indicado para smartphones e dispositivos compatíveis.",
+          "Formato compacto facilita o transporte.",
+          "Conector USB-C permite utilização com diferentes cabos.",
+          "Tecnologia desenvolvida para carregamento eficiente.",
+          "Ideal para casa, escritório e viagens."
+        ]
+      },
+      "category": "acessorios"
+    },
+    {
+      "id": "61",
+      "store": "Nuvora Store",
+      "sold": "+126 vendidos",
+      "title": "Tablet ProView 12 256GB",
+      "offerOfTheDay": true,
+      "price": 1599.9,
+      "images": [
+        "https://images.unsplash.com/photo-1593642532400-2682810df593?auto=format&fit=crop&w=800&q=80",
+        "https://images.unsplash.com/photo-1593305841991-05c297ba4575?auto=format&fit=crop&w=800&q=80",
+        "https://images.unsplash.com/photo-1585790050230-5dd28404ccb9?auto=format&fit=crop&w=800&q=80"
+      ],
+      "description": {
+        "title": "O que você precisa saber sobre este produto",
+        "items": [
+          "Tablet com armazenamento de 256GB.",
+          "Tela ampla indicada para estudos e entretenimento.",
+          "Design fino facilita transporte.",
+          "Conectividade sem fio permite utilização de diferentes serviços.",
+          "Câmeras integradas permitem chamadas de vídeo.",
+          "Indicado para produtividade e consumo de conteúdo."
+        ]
+      },
+      "category": "informatica"
+    },
+    {
+      "id": "62",
+      "store": "GameZone",
+      "sold": "+197 vendidos",
+      "title": "Controle Bluetooth GamePad Elite",
+      "offerOfTheDay": false,
+      "price": 349.9,
+      "images": [
+        "https://images.unsplash.com/photo-1542751371-adc38448a05e?auto=format&fit=crop&w=800&q=80",
+        "https://images.unsplash.com/photo-1593305841991-05c297ba4575?auto=format&fit=crop&w=800&q=80",
+        "https://images.unsplash.com/photo-1603481546238-487240415921?auto=format&fit=crop&w=800&q=80"
+      ],
+      "description": {
+        "title": "O que você precisa saber sobre este produto",
+        "items": [
+          "Controle Bluetooth desenvolvido para jogos.",
+          "Conexão sem fio oferece liberdade durante as partidas.",
+          "Botões responsivos facilitam os comandos.",
+          "Formato ergonômico proporciona conforto.",
+          "Bateria integrada permite utilização sem cabos.",
+          "Compatível com dispositivos que suportem a conexão."
+        ]
+      },
+      "category": "games"
+    },
+    {
+      "id": "63",
+      "store": "ByteLab",
+      "sold": "+88 vendidos",
+      "title": "Memória RAM DDR4 32GB 3200MHz",
+      "offerOfTheDay": true,
+      "price": 499.9,
+      "images": [
+        "https://images.unsplash.com/photo-1585790050230-5dd28404ccb9?auto=format&fit=crop&w=800&q=80",
+        "https://images.unsplash.com/photo-1517336714731-489689fd1ca8?auto=format&fit=crop&w=800&q=80",
+        "https://images.unsplash.com/photo-1496181133206-80ce9b88a853?auto=format&fit=crop&w=800&q=80"
+      ],
+      "description": {
+        "title": "O que você precisa saber sobre este produto",
+        "items": [
+          "Memória RAM DDR4 com capacidade total de 32GB.",
+          "Frequência de 3200MHz proporciona bom desempenho.",
+          "Indicada para multitarefas e jogos.",
+          "Instalação realizada em placas-mãe compatíveis.",
+          "Pode melhorar a capacidade de execução de aplicativos.",
+          "Construção desenvolvida para funcionamento estável."
+        ]
+      },
+      "category": "informatica"
+    },
+    {
+      "id": "64",
+      "store": "MegaTech",
+      "sold": "+52 vendidos",
+      "title": "Fonte Modular PowerCore 750W Gold",
+      "offerOfTheDay": false,
+      "price": 649.9,
+      "images": [
+        "https://images.unsplash.com/photo-1517336714731-489689fd1ca8?auto=format&fit=crop&w=800&q=80",
+        "https://images.unsplash.com/photo-1496181133206-80ce9b88a853?auto=format&fit=crop&w=800&q=80",
+        "https://images.unsplash.com/photo-1541807084-5c52b6b3adef?auto=format&fit=crop&w=800&q=80"
+      ],
+      "description": {
+        "title": "O que você precisa saber sobre este produto",
+        "items": [
+          "Fonte modular de 750W para computadores.",
+          "Potência adequada para diversas configurações gamers.",
+          "Cabos modulares ajudam na organização interna.",
+          "Ventoinha auxilia na refrigeração da unidade.",
+          "Formato ATX atende gabinetes compatíveis.",
+          "Indicada para computadores de médio e alto desempenho."
+        ]
+      },
+      "category": "informatica"
+    },
+    {
+      "id": "65",
+      "store": "TechNova",
+      "sold": "+221 vendidos",
+      "title": "Suporte Articulado para Notebook",
+      "offerOfTheDay": true,
+      "price": 139.9,
+      "images": [
+        "https://images.unsplash.com/photo-1572569511254-d8f925fe2cbb?auto=format&fit=crop&w=800&q=80",
+        "https://images.unsplash.com/photo-1550745165-9bc0b252726f?auto=format&fit=crop&w=800&q=80",
+        "https://images.unsplash.com/photo-1586953208448-b95a79798f07?auto=format&fit=crop&w=800&q=80"
+      ],
+      "description": {
+        "title": "O que você precisa saber sobre este produto",
+        "items": [
+          "Suporte articulado desenvolvido para notebooks.",
+          "Permite ajustar a altura e o ângulo do equipamento.",
+          "Ajuda a organizar o espaço sobre a mesa.",
+          "Estrutura resistente suporta notebooks compatíveis.",
+          "Formato dobrável facilita armazenamento.",
+          "Indicado para escritórios, estudos e home office."
+        ]
+      },
+      "category": "acessorios"
+    },
+    {
+      "id": "66",
+      "store": "Pixel House",
+      "sold": "+134 vendidos",
+      "title": "Soundbar Home Cinema 2.1",
+      "offerOfTheDay": false,
+      "price": 699.9,
+      "images": [
+        "https://images.unsplash.com/photo-1541807084-5c52b6b3adef?auto=format&fit=crop&w=800&q=80",
+        "https://images.unsplash.com/photo-1593642632823-8f785ba67e45?auto=format&fit=crop&w=800&q=80",
+        "https://images.unsplash.com/photo-1593642532400-2682810df593?auto=format&fit=crop&w=800&q=80"
+      ],
+      "description": {
+        "title": "O que você precisa saber sobre este produto",
+        "items": [
+          "Soundbar desenvolvida para melhorar o áudio da televisão.",
+          "Sistema 2.1 proporciona experiência sonora mais completa.",
+          "Design compacto pode ser colocado próximo à TV.",
+          "Conexões permitem integração com diferentes aparelhos.",
+          "Controle facilita ajustes durante o uso.",
+          "Indicada para filmes, séries e músicas."
+        ]
+      },
+      "category": "informatica"
+    },
+    {
+      "id": "67",
+      "store": "Nuvora Store",
+      "sold": "+102 vendidos",
+      "title": "Smartwatch Active GPS AMOLED",
+      "offerOfTheDay": true,
+      "price": 599.9,
+      "images": [
+        "https://images.unsplash.com/photo-1593642632823-8f785ba67e45?auto=format&fit=crop&w=800&q=80",
+        "https://images.unsplash.com/photo-1593642532400-2682810df593?auto=format&fit=crop&w=800&q=80",
+        "https://images.unsplash.com/photo-1593305841991-05c297ba4575?auto=format&fit=crop&w=800&q=80"
+      ],
+      "description": {
+        "title": "O que você precisa saber sobre este produto",
+        "items": [
+          "Smartwatch com tela AMOLED desenvolvido para atividades diárias.",
+          "GPS integrado permite acompanhamento de deslocamentos compatíveis.",
+          "Conexão Bluetooth permite integração com smartphones.",
+          "Design confortável para utilização durante o dia.",
+          "Tela facilita visualização das informações.",
+          "Indicado para usuários que buscam praticidade."
+        ]
+      },
+      "category": "informatica"
+    },
+    {
+      "id": "68",
+      "store": "GameZone",
+      "sold": "+276 vendidos",
+      "title": "Mousepad RGB Extended 900x400",
+      "offerOfTheDay": false,
+      "price": 149.9,
+      "images": [
+        "https://images.unsplash.com/photo-1587829741301-dc798b83add3?auto=format&fit=crop&w=800&q=80",
+        "https://images.unsplash.com/photo-1527814050087-3793815479db?auto=format&fit=crop&w=800&q=80",
+        "https://images.unsplash.com/photo-1563298723-dcfebaa392e3?auto=format&fit=crop&w=800&q=80"
+      ],
+      "description": {
+        "title": "O que você precisa saber sobre este produto",
+        "items": [
+          "Mousepad estendido desenvolvido para setups gamers.",
+          "Área ampla acomoda teclado e mouse.",
+          "Iluminação RGB adiciona estilo ao ambiente.",
+          "Base antiderrapante ajuda a manter o produto no lugar.",
+          "Superfície desenvolvida para movimentos precisos.",
+          "Formato ideal para mesas de diferentes tamanhos."
+        ]
+      },
+      "category": "perifericos"
+    },
+    {
+      "id": "69",
+      "store": "ByteLab",
+      "sold": "+83 vendidos",
+      "title": "HD Externo UltraStorage 4TB",
+      "offerOfTheDay": true,
+      "price": 699.9,
+      "images": [
+        "https://images.unsplash.com/photo-1593305841991-05c297ba4575?auto=format&fit=crop&w=800&q=80",
+        "https://images.unsplash.com/photo-1585790050230-5dd28404ccb9?auto=format&fit=crop&w=800&q=80",
+        "https://images.unsplash.com/photo-1517336714731-489689fd1ca8?auto=format&fit=crop&w=800&q=80"
+      ],
+      "description": {
+        "title": "O que você precisa saber sobre este produto",
+        "items": [
+          "HD externo com capacidade de 4TB.",
+          "Indicado para armazenar grandes quantidades de arquivos.",
+          "Pode ser utilizado para backups e documentos.",
+          "Conexão USB facilita utilização.",
+          "Formato portátil facilita transporte.",
+          "Compatível com computadores que suportem a conexão."
+        ]
+      },
+      "category": "informatica"
+    },
+    {
+      "id": "70",
+      "store": "MegaTech",
+      "sold": "+47 vendidos",
+      "title": "Placa de Vídeo Radeon RX 7700 XT",
+      "offerOfTheDay": false,
+      "price": 2999.9,
+      "images": [
+        "https://images.unsplash.com/photo-1585790050230-5dd28404ccb9?auto=format&fit=crop&w=800&q=80",
+        "https://images.unsplash.com/photo-1517336714731-489689fd1ca8?auto=format&fit=crop&w=800&q=80",
+        "https://images.unsplash.com/photo-1496181133206-80ce9b88a853?auto=format&fit=crop&w=800&q=80"
+      ],
+      "description": {
+        "title": "O que você precisa saber sobre este produto",
+        "items": [
+          "Placa de vídeo desenvolvida para jogos e aplicações gráficas.",
+          "GPU dedicada oferece processamento gráfico avançado.",
+          "Sistema de refrigeração auxilia no controle de temperatura.",
+          "Indicada para computadores gamers de alto desempenho.",
+          "Compatível com monitores de alta resolução.",
+          "Requer fonte e gabinete adequados."
+        ]
+      },
+      "category": "informatica"
+    },
+    {
+      "id": "71",
+      "store": "TechNova",
+      "sold": "+194 vendidos",
+      "title": "Webcam StreamPro 2K",
+      "offerOfTheDay": true,
+      "price": 399.9,
+      "images": [
+        "https://images.unsplash.com/photo-1505740420928-5e560c06d30e?auto=format&fit=crop&w=800&q=80",
+        "https://images.unsplash.com/photo-1484704849700-f032a568e944?auto=format&fit=crop&w=800&q=80",
+        "https://images.unsplash.com/photo-1524678606370-a47ad25cb82a?auto=format&fit=crop&w=800&q=80"
+      ],
+      "description": {
+        "title": "O que você precisa saber sobre este produto",
+        "items": [
+          "Webcam 2K desenvolvida para transmissões e chamadas.",
+          "Imagem em alta resolução oferece maior definição.",
+          "Microfone integrado facilita comunicação.",
+          "Suporte permite posicionamento sobre monitores.",
+          "Conexão USB simplifica a instalação.",
+          "Indicada para reuniões, aulas e streaming."
+        ]
+      },
+      "category": "perifericos"
+    },
+    {
+      "id": "72",
+      "store": "Nuvora Store",
+      "sold": "+115 vendidos",
+      "title": "Notebook Gamer Fury 15 RTX",
+      "offerOfTheDay": false,
+      "price": 4999.9,
+      "images": [
+        "https://images.unsplash.com/photo-1496181133206-80ce9b88a853?auto=format&fit=crop&w=800&q=80",
+        "https://images.unsplash.com/photo-1541807084-5c52b6b3adef?auto=format&fit=crop&w=800&q=80",
+        "https://images.unsplash.com/photo-1593642632823-8f785ba67e45?auto=format&fit=crop&w=800&q=80"
+      ],
+      "description": {
+        "title": "O que você precisa saber sobre este produto",
+        "items": [
+          "Notebook gamer desenvolvido para jogos e aplicações pesadas.",
+          "Placa gráfica dedicada oferece processamento gráfico.",
+          "Tela ampla proporciona boa experiência durante os jogos.",
+          "Teclado integrado possui layout desenvolvido para gamers.",
+          "Design portátil facilita transporte.",
+          "Sistema de refrigeração auxilia durante cargas elevadas."
+        ]
+      },
+      "category": "informatica"
+    },
+    {
+      "id": "73",
+      "store": "Pixel House",
+      "sold": "+165 vendidos",
+      "title": "Cabo HDMI Ultra 2.1 3 Metros",
+      "offerOfTheDay": true,
+      "price": 79.9,
+      "images": [
+        "https://images.unsplash.com/photo-1609592424744-0c7a1c0f1e44?auto=format&fit=crop&w=800&q=80",
+        "https://images.unsplash.com/photo-1583394838336-acd977736f90?auto=format&fit=crop&w=800&q=80",
+        "https://images.unsplash.com/photo-1572569511254-d8f925fe2cbb?auto=format&fit=crop&w=800&q=80"
+      ],
+      "description": {
+        "title": "O que você precisa saber sobre este produto",
+        "items": [
+          "Cabo HDMI 2.1 com comprimento de 3 metros.",
+          "Indicado para conexão de televisores e monitores compatíveis.",
+          "Comprimento facilita instalações com maior distância.",
+          "Conectores desenvolvidos para utilização frequente.",
+          "Compatível com diferentes dispositivos HDMI.",
+          "Revestimento auxilia na proteção do cabo."
+        ]
+      },
+      "category": "acessorios"
+    },
+    {
+      "id": "74",
+      "store": "GameZone",
+      "sold": "+143 vendidos",
+      "title": "Volante SimRacing Force Pro",
+      "offerOfTheDay": false,
+      "price": 1599.9,
+      "images": [
+        "https://images.unsplash.com/photo-1603481546238-487240415921?auto=format&fit=crop&w=800&q=80",
+        "https://images.unsplash.com/photo-1605901309584-818e25960a8f?auto=format&fit=crop&w=800&q=80",
+        "https://images.unsplash.com/photo-1550745165-9bc0b252726f?auto=format&fit=crop&w=800&q=80"
+      ],
+      "description": {
+        "title": "O que você precisa saber sobre este produto",
+        "items": [
+          "Volante desenvolvido para simuladores de corrida.",
+          "Formato inspirado em volantes esportivos proporciona imersão.",
+          "Pedais permitem controlar aceleração e frenagem.",
+          "Botões integrados facilitam comandos.",
+          "Sistema de fixação ajuda a manter o equipamento estável.",
+          "Indicado para jogadores de simuladores."
+        ]
+      },
+      "category": "games"
+    },
+    {
+      "id": "75",
+      "store": "ByteLab",
+      "sold": "+91 vendidos",
+      "title": "Dock Station USB-C Pro 12 em 1",
+      "offerOfTheDay": true,
+      "price": 399.9,
+      "images": [
+        "https://images.unsplash.com/photo-1593642532400-2682810df593?auto=format&fit=crop&w=800&q=80",
+        "https://images.unsplash.com/photo-1593305841991-05c297ba4575?auto=format&fit=crop&w=800&q=80",
+        "https://images.unsplash.com/photo-1585790050230-5dd28404ccb9?auto=format&fit=crop&w=800&q=80"
+      ],
+      "description": {
+        "title": "O que você precisa saber sobre este produto",
+        "items": [
+          "Dock station USB-C com múltiplas conexões.",
+          "Permite conectar diversos periféricos ao notebook.",
+          "Formato compacto ajuda na organização da mesa.",
+          "Conexão USB-C facilita instalação.",
+          "Indicada para escritórios e home office.",
+          "Compatível com equipamentos que suportem suas funções."
+        ]
+      },
+      "category": "informatica"
+    },
+    {
+      "id": "76",
+      "store": "MegaTech",
+      "sold": "+69 vendidos",
+      "title": "Water Cooler FrostLiquid 240mm",
+      "offerOfTheDay": false,
+      "price": 449.9,
+      "images": [
+        "https://images.unsplash.com/photo-1593305841991-05c297ba4575?auto=format&fit=crop&w=800&q=80",
+        "https://images.unsplash.com/photo-1585790050230-5dd28404ccb9?auto=format&fit=crop&w=800&q=80",
+        "https://images.unsplash.com/photo-1517336714731-489689fd1ca8?auto=format&fit=crop&w=800&q=80"
+      ],
+      "description": {
+        "title": "O que você precisa saber sobre este produto",
+        "items": [
+          "Sistema de refrigeração líquida com radiador de 240mm.",
+          "Desenvolvido para auxiliar no controle térmico do processador.",
+          "Duas ventoinhas ajudam na dissipação de calor.",
+          "Design moderno combina com computadores gamers.",
+          "Compatível com plataformas específicas.",
+          "Indicado para sistemas que exigem maior refrigeração."
+        ]
+      },
+      "category": "informatica"
+    },
+    {
+      "id": "77",
+      "store": "TechNova",
+      "sold": "+207 vendidos",
+      "title": "Luminária LED Smart Desk",
+      "offerOfTheDay": true,
+      "price": 159.9,
+      "images": [
+        "https://images.unsplash.com/photo-1585790050230-5dd28404ccb9?auto=format&fit=crop&w=800&q=80",
+        "https://images.unsplash.com/photo-1517336714731-489689fd1ca8?auto=format&fit=crop&w=800&q=80",
+        "https://images.unsplash.com/photo-1496181133206-80ce9b88a853?auto=format&fit=crop&w=800&q=80"
+      ],
+      "description": {
+        "title": "O que você precisa saber sobre este produto",
+        "items": [
+          "Luminária LED desenvolvida para mesas de estudo e trabalho.",
+          "Iluminação auxilia na realização de tarefas.",
+          "Design compacto ocupa pouco espaço.",
+          "Estrutura ajustável facilita direcionamento da luz.",
+          "Base proporciona estabilidade.",
+          "Visual moderno combina com escritórios e setups."
+        ]
+      },
+      "category": "informatica"
+    },
+    {
+      "id": "78",
+      "store": "Nuvora Store",
+      "sold": "+132 vendidos",
+      "title": "Fone Bluetooth SportBuds Pro",
+      "offerOfTheDay": false,
+      "price": 199.9,
+      "images": [
+        "https://images.unsplash.com/photo-1517336714731-489689fd1ca8?auto=format&fit=crop&w=800&q=80",
+        "https://images.unsplash.com/photo-1496181133206-80ce9b88a853?auto=format&fit=crop&w=800&q=80",
+        "https://images.unsplash.com/photo-1541807084-5c52b6b3adef?auto=format&fit=crop&w=800&q=80"
+      ],
+      "description": {
+        "title": "O que você precisa saber sobre este produto",
+        "items": [
+          "Fones sem fio desenvolvidos para atividades cotidianas.",
+          "Conexão Bluetooth facilita utilização com smartphones.",
+          "Formato compacto proporciona praticidade.",
+          "Estojo de carregamento acompanha os fones.",
+          "Controles facilitam gerenciamento da reprodução.",
+          "Design pensado para utilização durante diferentes atividades."
+        ]
+      },
+      "category": "informatica"
+    },
+    {
+      "id": "79",
+      "store": "Pixel House",
+      "sold": "+78 vendidos",
+      "title": "Projetor MiniCinema Full HD",
+      "offerOfTheDay": true,
+      "price": 699.9,
+      "images": [
+        "https://images.unsplash.com/photo-1496181133206-80ce9b88a853?auto=format&fit=crop&w=800&q=80",
+        "https://images.unsplash.com/photo-1541807084-5c52b6b3adef?auto=format&fit=crop&w=800&q=80",
+        "https://images.unsplash.com/photo-1593642632823-8f785ba67e45?auto=format&fit=crop&w=800&q=80"
+      ],
+      "description": {
+        "title": "O que você precisa saber sobre este produto",
+        "items": [
+          "Projetor compacto desenvolvido para entretenimento doméstico.",
+          "Resolução Full HD oferece boa qualidade de imagem.",
+          "Formato portátil facilita transporte.",
+          "Entradas permitem conexão com diferentes aparelhos.",
+          "Indicado para filmes, apresentações e vídeos.",
+          "Design compacto facilita instalação em diferentes ambientes."
+        ]
+      },
+      "category": "informatica"
+    },
+    {
+      "id": "80",
+      "store": "GameZone",
+      "sold": "+189 vendidos",
+      "title": "Cadeira Gamer Racing Pro",
+      "offerOfTheDay": false,
+      "price": 1399.9,
+      "images": [
+        "https://images.unsplash.com/photo-1541807084-5c52b6b3adef?auto=format&fit=crop&w=800&q=80",
+        "https://images.unsplash.com/photo-1593642632823-8f785ba67e45?auto=format&fit=crop&w=800&q=80",
+        "https://images.unsplash.com/photo-1593642532400-2682810df593?auto=format&fit=crop&w=800&q=80"
+      ],
+      "description": {
+        "title": "O que você precisa saber sobre este produto",
+        "items": [
+          "Cadeira gamer inspirada em bancos esportivos.",
+          "Encosto alto proporciona suporte durante a utilização.",
+          "Assento acolchoado oferece conforto.",
+          "Sistema de ajuste permite adaptar a posição.",
+          "Base resistente proporciona estabilidade.",
+          "Indicada para jogos, estudos e trabalho."
+        ]
+      },
+      "category": "informatica"
+    },
+    {
+      "id": "81",
+      "store": "ByteLab",
+      "sold": "+227 vendidos",
+      "title": "Cartão MicroSD Ultra 256GB",
+      "offerOfTheDay": true,
+      "price": 129.9,
+      "images": [
+        "https://images.unsplash.com/photo-1593642632823-8f785ba67e45?auto=format&fit=crop&w=800&q=80",
+        "https://images.unsplash.com/photo-1593642532400-2682810df593?auto=format&fit=crop&w=800&q=80",
+        "https://images.unsplash.com/photo-1593305841991-05c297ba4575?auto=format&fit=crop&w=800&q=80"
+      ],
+      "description": {
+        "title": "O que você precisa saber sobre este produto",
+        "items": [
+          "Cartão MicroSD com capacidade de 256GB.",
+          "Indicado para armazenamento de fotos, vídeos e arquivos.",
+          "Formato compacto permite utilização em dispositivos compatíveis.",
+          "Pode ser utilizado em smartphones e câmeras.",
+          "Capacidade amplia o armazenamento disponível.",
+          "Fácil de transportar e instalar."
+        ]
+      },
+      "category": "informatica"
+    },
+    {
+      "id": "82",
+      "store": "MegaTech",
+      "sold": "+63 vendidos",
+      "title": "Roteador Mesh Wi-Fi 6 Duo",
+      "offerOfTheDay": false,
+      "price": 799.9,
+      "images": [
+        "https://images.unsplash.com/photo-1593642532400-2682810df593?auto=format&fit=crop&w=800&q=80",
+        "https://images.unsplash.com/photo-1593305841991-05c297ba4575?auto=format&fit=crop&w=800&q=80",
+        "https://images.unsplash.com/photo-1585790050230-5dd28404ccb9?auto=format&fit=crop&w=800&q=80"
+      ],
+      "description": {
+        "title": "O que você precisa saber sobre este produto",
+        "items": [
+          "Sistema Mesh Wi-Fi desenvolvido para ampliar a cobertura da rede.",
+          "Duas unidades ajudam a distribuir o sinal pelo ambiente.",
+          "Tecnologia Wi-Fi 6 oferece conectividade moderna.",
+          "Configuração facilita gerenciamento da rede.",
+          "Design compacto permite posicionamento em diferentes locais.",
+          "Indicado para residências e escritórios."
+        ]
+      },
+      "category": "informatica"
+    },
+    {
+      "id": "83",
+      "store": "TechNova",
+      "sold": "+154 vendidos",
+      "title": "Microfone Lapela Wireless Pro",
+      "offerOfTheDay": true,
+      "price": 249.9,
+      "images": [
+        "https://images.unsplash.com/photo-1527814050087-3793815479db?auto=format&fit=crop&w=800&q=80",
+        "https://images.unsplash.com/photo-1563298723-dcfebaa392e3?auto=format&fit=crop&w=800&q=80",
+        "https://images.unsplash.com/photo-1505740420928-5e560c06d30e?auto=format&fit=crop&w=800&q=80"
+      ],
+      "description": {
+        "title": "O que você precisa saber sobre este produto",
+        "items": [
+          "Microfone de lapela sem fio para gravações e vídeos.",
+          "Formato compacto facilita utilização durante gravações.",
+          "Conexão wireless oferece liberdade de movimento.",
+          "Indicado para criadores de conteúdo.",
+          "Pode ser utilizado em apresentações e entrevistas.",
+          "Design discreto facilita posicionamento na roupa."
+        ]
+      },
+      "category": "perifericos"
+    },
+    {
+      "id": "84",
+      "store": "Nuvora Store",
+      "sold": "+98 vendidos",
+      "title": "Smartphone Nova Max 512GB",
+      "offerOfTheDay": false,
+      "price": 2799.9,
+      "images": [
+        "https://images.unsplash.com/photo-1556656793-08538906a9f8?auto=format&fit=crop&w=800&q=80",
+        "https://images.unsplash.com/photo-1567581935884-3349723552ca?auto=format&fit=crop&w=800&q=80",
+        "https://images.unsplash.com/photo-1511707171634-5f897ff02aa9?auto=format&fit=crop&w=800&q=80"
+      ],
+      "description": {
+        "title": "O que você precisa saber sobre este produto",
+        "items": [
+          "Smartphone com armazenamento interno de 512GB.",
+          "Tela ampla oferece boa experiência visual.",
+          "Sistema de câmeras permite registrar fotos e vídeos.",
+          "Bateria desenvolvida para acompanhar a rotina.",
+          "Conectividade moderna permite utilização com diversos acessórios.",
+          "Design fino e moderno."
+        ]
+      },
+      "category": "celulares"
+    },
+    {
+      "id": "85",
+      "store": "Pixel House",
+      "sold": "+146 vendidos",
+      "title": "Monitor Gamer 27 QHD 165Hz",
+      "offerOfTheDay": true,
+      "price": 1799.9,
+      "images": [
+        "https://images.unsplash.com/photo-1517336714731-489689fd1ca8?auto=format&fit=crop&w=800&q=80",
+        "https://images.unsplash.com/photo-1496181133206-80ce9b88a853?auto=format&fit=crop&w=800&q=80",
+        "https://images.unsplash.com/photo-1541807084-5c52b6b3adef?auto=format&fit=crop&w=800&q=80"
+      ],
+      "description": {
+        "title": "O que você precisa saber sobre este produto",
+        "items": [
+          "Monitor gamer de 27 polegadas com resolução QHD.",
+          "Alta taxa de atualização proporciona movimentos fluidos.",
+          "Tela ampla oferece boa área de visualização.",
+          "Conexões permitem utilização com diferentes computadores.",
+          "Base proporciona estabilidade.",
+          "Indicado para jogos e entretenimento."
+        ]
+      },
+      "category": "informatica"
+    },
+    {
+      "id": "86",
+      "store": "GameZone",
+      "sold": "+231 vendidos",
+      "title": "Teclado Mecânico TKL RGB Pro",
+      "offerOfTheDay": false,
+      "price": 329.9,
+      "images": [
+        "https://images.unsplash.com/photo-1484704849700-f032a568e944?auto=format&fit=crop&w=800&q=80",
+        "https://images.unsplash.com/photo-1524678606370-a47ad25cb82a?auto=format&fit=crop&w=800&q=80",
+        "https://images.unsplash.com/photo-1591488320449-011701bb6704?auto=format&fit=crop&w=800&q=80"
+      ],
+      "description": {
+        "title": "O que você precisa saber sobre este produto",
+        "items": [
+          "Teclado mecânico TKL desenvolvido para jogos.",
+          "Formato compacto elimina o teclado numérico.",
+          "Iluminação RGB permite personalização.",
+          "Teclas mecânicas oferecem resposta rápida.",
+          "Conexão USB facilita utilização.",
+          "Construção resistente para uso frequente."
+        ]
+      },
+      "category": "perifericos"
+    },
+    {
+      "id": "87",
+      "store": "ByteLab",
+      "sold": "+174 vendidos",
+      "title": "Adaptador USB-C para HDMI 4K",
+      "offerOfTheDay": true,
+      "price": 69.9,
+      "images": [
+        "https://images.unsplash.com/photo-1586953208448-b95a79798f07?auto=format&fit=crop&w=800&q=80",
+        "https://images.unsplash.com/photo-1609592424744-0c7a1c0f1e44?auto=format&fit=crop&w=800&q=80",
+        "https://images.unsplash.com/photo-1583394838336-acd977736f90?auto=format&fit=crop&w=800&q=80"
+      ],
+      "description": {
+        "title": "O que você precisa saber sobre este produto",
+        "items": [
+          "Adaptador USB-C para HDMI desenvolvido para transmissão de imagem.",
+          "Compatível com dispositivos que suportem saída de vídeo.",
+          "Permite conectar notebooks a monitores e televisores.",
+          "Formato compacto facilita transporte.",
+          "Conexão simples facilita instalação.",
+          "Suporta resolução de vídeo compatível com o equipamento."
+        ]
+      },
+      "category": "acessorios"
+    },
+    {
+      "id": "88",
+      "store": "MegaTech",
+      "sold": "+57 vendidos",
+      "title": "Monitor Ultrawide 34 144Hz",
+      "offerOfTheDay": false,
+      "price": 2199.9,
+      "images": [
+        "https://images.unsplash.com/photo-1593642632823-8f785ba67e45?auto=format&fit=crop&w=800&q=80",
+        "https://images.unsplash.com/photo-1593642532400-2682810df593?auto=format&fit=crop&w=800&q=80",
+        "https://images.unsplash.com/photo-1593305841991-05c297ba4575?auto=format&fit=crop&w=800&q=80"
+      ],
+      "description": {
+        "title": "O que você precisa saber sobre este produto",
+        "items": [
+          "Monitor ultrawide de 34 polegadas.",
+          "Formato amplo proporciona grande área de visualização.",
+          "Taxa de atualização elevada favorece imagens fluidas.",
+          "Indicado para produtividade e jogos.",
+          "Múltiplas conexões facilitam utilização com diferentes aparelhos.",
+          "Base resistente proporciona estabilidade."
+        ]
+      },
+      "category": "informatica"
+    },
+    {
+      "id": "89",
+      "store": "TechNova",
+      "sold": "+319 vendidos",
+      "title": "Mouse Office Silent Click",
+      "offerOfTheDay": true,
+      "price": 79.9,
+      "images": [
+        "https://images.unsplash.com/photo-1587829741301-dc798b83add3?auto=format&fit=crop&w=800&q=80",
+        "https://images.unsplash.com/photo-1527814050087-3793815479db?auto=format&fit=crop&w=800&q=80",
+        "https://images.unsplash.com/photo-1563298723-dcfebaa392e3?auto=format&fit=crop&w=800&q=80"
+      ],
+      "description": {
+        "title": "O que você precisa saber sobre este produto",
+        "items": [
+          "Mouse desenvolvido para ambientes de trabalho.",
+          "Cliques silenciosos reduzem ruídos durante a utilização.",
+          "Formato ergonômico proporciona conforto.",
+          "Sensor óptico oferece precisão.",
+          "Conexão USB facilita instalação.",
+          "Indicado para escritórios, estudos e uso doméstico."
+        ]
+      },
+      "category": "perifericos"
+    },
+    {
+      "id": "90",
+      "store": "Nuvora Store",
+      "sold": "+86 vendidos",
+      "title": "Smartphone Compact X5 128GB",
+      "offerOfTheDay": false,
+      "price": 1599.9,
+      "images": [
+        "https://images.unsplash.com/photo-1567581935884-3349723552ca?auto=format&fit=crop&w=800&q=80",
+        "https://images.unsplash.com/photo-1511707171634-5f897ff02aa9?auto=format&fit=crop&w=800&q=80",
+        "https://images.unsplash.com/photo-1510557880182-3d4d3cba35a5?auto=format&fit=crop&w=800&q=80"
+      ],
+      "description": {
+        "title": "O que você precisa saber sobre este produto",
+        "items": [
+          "Smartphone compacto com 128GB de armazenamento.",
+          "Formato facilita utilização com uma mão.",
+          "Tela oferece boa qualidade para aplicativos e vídeos.",
+          "Sistema de câmeras permite registrar momentos.",
+          "Conectividade Bluetooth e Wi-Fi.",
+          "Bateria desenvolvida para utilização diária."
+        ]
+      },
+      "category": "celulares"
+    },
+    {
+      "id": "91",
+      "store": "Pixel House",
+      "sold": "+128 vendidos",
+      "title": "Câmera de Segurança Outdoor Pro",
+      "offerOfTheDay": true,
+      "price": 299.9,
+      "images": [
+        "https://images.unsplash.com/photo-1585790050230-5dd28404ccb9?auto=format&fit=crop&w=800&q=80",
+        "https://images.unsplash.com/photo-1517336714731-489689fd1ca8?auto=format&fit=crop&w=800&q=80",
+        "https://images.unsplash.com/photo-1496181133206-80ce9b88a853?auto=format&fit=crop&w=800&q=80"
+      ],
+      "description": {
+        "title": "O que você precisa saber sobre este produto",
+        "items": [
+          "Câmera de segurança desenvolvida para monitoramento externo.",
+          "Estrutura projetada para instalação em ambientes externos.",
+          "Sistema de câmera permite acompanhar imagens do local.",
+          "Conectividade facilita acesso às gravações compatíveis.",
+          "Formato discreto facilita instalação.",
+          "Indicada para residências e pequenos estabelecimentos."
+        ]
+      },
+      "category": "informatica"
+    },
+    {
+      "id": "92",
+      "store": "ByteLab",
+      "sold": "+215 vendidos",
+      "title": "Power Bank Turbo 30000mAh",
+      "offerOfTheDay": false,
+      "price": 249.9,
+      "images": [
+        "https://images.unsplash.com/photo-1586953208448-b95a79798f07?auto=format&fit=crop&w=800&q=80",
+        "https://images.unsplash.com/photo-1609592424744-0c7a1c0f1e44?auto=format&fit=crop&w=800&q=80",
+        "https://images.unsplash.com/photo-1583394838336-acd977736f90?auto=format&fit=crop&w=800&q=80"
+      ],
+      "description": {
+        "title": "O que você precisa saber sobre este produto",
+        "items": [
+          "Power bank com capacidade de 30000mAh.",
+          "Permite carregar dispositivos longe de tomadas.",
+          "Múltiplas conexões facilitam utilização.",
+          "Indicador de carga auxilia no acompanhamento da bateria.",
+          "Formato portátil facilita transporte.",
+          "Indicado para viagens e utilização prolongada."
+        ]
+      },
+      "category": "acessorios"
+    },
+    {
+      "id": "93",
+      "store": "MegaTech",
+      "sold": "+73 vendidos",
+      "title": "Switch Gigabit 16 Portas",
+      "offerOfTheDay": true,
+      "price": 299.9,
+      "images": [
+        "https://images.unsplash.com/photo-1496181133206-80ce9b88a853?auto=format&fit=crop&w=800&q=80",
+        "https://images.unsplash.com/photo-1541807084-5c52b6b3adef?auto=format&fit=crop&w=800&q=80",
+        "https://images.unsplash.com/photo-1593642632823-8f785ba67e45?auto=format&fit=crop&w=800&q=80"
+      ],
+      "description": {
+        "title": "O que você precisa saber sobre este produto",
+        "items": [
+          "Switch Gigabit com 16 portas Ethernet.",
+          "Permite conectar vários dispositivos em uma rede.",
+          "Portas Gigabit oferecem alta velocidade de conexão.",
+          "Formato adequado para escritórios e ambientes domésticos.",
+          "Instalação simples em redes compatíveis.",
+          "Estrutura compacta facilita posicionamento."
+        ]
+      },
+      "category": "informatica"
+    },
+    {
+      "id": "94",
+      "store": "GameZone",
+      "sold": "+161 vendidos",
+      "title": "Headset Wireless 2.4G Pro",
+      "offerOfTheDay": false,
+      "price": 499.9,
+      "images": [
+        "https://images.unsplash.com/photo-1524678606370-a47ad25cb82a?auto=format&fit=crop&w=800&q=80",
+        "https://images.unsplash.com/photo-1591488320449-011701bb6704?auto=format&fit=crop&w=800&q=80",
+        "https://images.unsplash.com/photo-1587829741301-dc798b83add3?auto=format&fit=crop&w=800&q=80"
+      ],
+      "description": {
+        "title": "O que você precisa saber sobre este produto",
+        "items": [
+          "Headset wireless desenvolvido para jogos.",
+          "Conexão de baixa latência favorece partidas competitivas.",
+          "Microfone integrado facilita comunicação.",
+          "Almofadas oferecem conforto durante sessões prolongadas.",
+          "Bateria integrada permite utilização sem fios.",
+          "Design gamer combina com diferentes setups."
+        ]
+      },
+      "category": "perifericos"
+    },
+    {
+      "id": "95",
+      "store": "TechNova",
+      "sold": "+136 vendidos",
+      "title": "Teclado Numérico Mecânico RGB",
+      "offerOfTheDay": true,
+      "price": 129.9,
+      "images": [
+        "https://images.unsplash.com/photo-1591488320449-011701bb6704?auto=format&fit=crop&w=800&q=80",
+        "https://images.unsplash.com/photo-1587829741301-dc798b83add3?auto=format&fit=crop&w=800&q=80",
+        "https://images.unsplash.com/photo-1527814050087-3793815479db?auto=format&fit=crop&w=800&q=80"
+      ],
+      "description": {
+        "title": "O que você precisa saber sobre este produto",
+        "items": [
+          "Teclado numérico mecânico desenvolvido para complementar notebooks.",
+          "Switches mecânicos oferecem resposta tátil.",
+          "Iluminação RGB adiciona personalização.",
+          "Formato compacto ocupa pouco espaço.",
+          "Conexão USB facilita utilização.",
+          "Indicado para produtividade e jogos."
+        ]
+      },
+      "category": "perifericos"
+    },
+    {
+      "id": "96",
+      "store": "Nuvora Store",
+      "sold": "+94 vendidos",
+      "title": "Tablet Kids Tab 10 64GB",
+      "offerOfTheDay": false,
+      "price": 699.9,
+      "images": [
+        "https://images.unsplash.com/photo-1593642532400-2682810df593?auto=format&fit=crop&w=800&q=80",
+        "https://images.unsplash.com/photo-1593305841991-05c297ba4575?auto=format&fit=crop&w=800&q=80",
+        "https://images.unsplash.com/photo-1585790050230-5dd28404ccb9?auto=format&fit=crop&w=800&q=80"
+      ],
+      "description": {
+        "title": "O que você precisa saber sobre este produto",
+        "items": [
+          "Tablet compacto com 64GB de armazenamento.",
+          "Tela adequada para vídeos, aplicativos e atividades educativas.",
+          "Formato portátil facilita transporte.",
+          "Conectividade permite acesso a conteúdos online.",
+          "Estrutura desenvolvida para utilização cotidiana.",
+          "Indicado para entretenimento e estudos."
+        ]
+      },
+      "category": "informatica"
+    },
+    {
+      "id": "97",
+      "store": "Pixel House",
+      "sold": "+187 vendidos",
+      "title": "Hub USB 3.0 4 Portas",
+      "offerOfTheDay": true,
+      "price": 69.9,
+      "images": [
+        "https://images.unsplash.com/photo-1586953208448-b95a79798f07?auto=format&fit=crop&w=800&q=80",
+        "https://images.unsplash.com/photo-1609592424744-0c7a1c0f1e44?auto=format&fit=crop&w=800&q=80",
+        "https://images.unsplash.com/photo-1583394838336-acd977736f90?auto=format&fit=crop&w=800&q=80"
+      ],
+      "description": {
+        "title": "O que você precisa saber sobre este produto",
+        "items": [
+          "Hub USB 3.0 com quatro portas adicionais.",
+          "Permite conectar vários acessórios ao computador.",
+          "Formato compacto facilita transporte.",
+          "Conexão USB oferece instalação simples.",
+          "Indicado para notebooks e computadores.",
+          "Estrutura leve facilita utilização no dia a dia."
+        ]
+      },
+      "category": "acessorios"
+    },
+    {
+      "id": "98",
+      "store": "ByteLab",
+      "sold": "+275 vendidos",
+      "title": "Webcam HD Office 720p",
+      "offerOfTheDay": false,
+      "price": 99.9,
+      "images": [
+        "https://images.unsplash.com/photo-1563298723-dcfebaa392e3?auto=format&fit=crop&w=800&q=80",
+        "https://images.unsplash.com/photo-1505740420928-5e560c06d30e?auto=format&fit=crop&w=800&q=80",
+        "https://images.unsplash.com/photo-1484704849700-f032a568e944?auto=format&fit=crop&w=800&q=80"
+      ],
+      "description": {
+        "title": "O que você precisa saber sobre este produto",
+        "items": [
+          "Webcam HD desenvolvida para chamadas de vídeo.",
+          "Resolução 720p oferece imagem adequada para reuniões.",
+          "Microfone integrado facilita comunicação.",
+          "Conexão USB permite instalação simples.",
+          "Suporte facilita posicionamento sobre monitores.",
+          "Indicada para estudos e trabalho."
+        ]
+      },
+      "category": "perifericos"
+    },
+    {
+      "id": "99",
+      "store": "MegaTech",
+      "sold": "+82 vendidos",
+      "title": "Fonte ATX PowerCore 500W Bronze",
+      "offerOfTheDay": true,
+      "price": 249.9,
+      "images": [
+        "https://images.unsplash.com/photo-1517336714731-489689fd1ca8?auto=format&fit=crop&w=800&q=80",
+        "https://images.unsplash.com/photo-1496181133206-80ce9b88a853?auto=format&fit=crop&w=800&q=80",
+        "https://images.unsplash.com/photo-1541807084-5c52b6b3adef?auto=format&fit=crop&w=800&q=80"
+      ],
+      "description": {
+        "title": "O que você precisa saber sobre este produto",
+        "items": [
+          "Fonte ATX de 500W para computadores.",
+          "Indicada para configurações domésticas e intermediárias.",
+          "Ventoinha auxilia na dissipação de calor.",
+          "Cabos permitem conexão dos componentes internos.",
+          "Formato ATX compatível com gabinetes apropriados.",
+          "Construção desenvolvida para utilização diária."
+        ]
+      },
+      "category": "informatica"
+    },
+    {
+      "id": "100",
+      "store": "GameZone",
+      "sold": "+203 vendidos",
+      "title": "Controle Wireless Elite X2",
+      "offerOfTheDay": false,
+      "price": 449.9,
+      "images": [
+        "https://images.unsplash.com/photo-1605901309584-818e25960a8f?auto=format&fit=crop&w=800&q=80",
+        "https://images.unsplash.com/photo-1550745165-9bc0b252726f?auto=format&fit=crop&w=800&q=80",
+        "https://images.unsplash.com/photo-1542751371-adc38448a05e?auto=format&fit=crop&w=800&q=80"
+      ],
+      "description": {
+        "title": "O que você precisa saber sobre este produto",
+        "items": [
+          "Controle sem fio desenvolvido para jogos.",
+          "Conexão wireless proporciona liberdade durante as partidas.",
+          "Botões responsivos facilitam comandos precisos.",
+          "Formato ergonômico proporciona conforto.",
+          "Bateria integrada permite utilização sem cabos.",
+          "Indicado para computadores e dispositivos compatíveis."
+        ]
+      },
+      "category": "games"
+    }
+  ]
+}

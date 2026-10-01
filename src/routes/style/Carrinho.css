@@ -1,0 +1,269 @@
+.carrinho-content {
+    display: flex;
+    padding: 20px;
+    gap: 20px;
+    background: rgb(245, 245, 245);
+}
+
+/*Carrinho produtos*/
+.carrinho-produtos {
+    flex: 65%;
+}
+
+.carrinho-resumo {
+    flex: 35%;
+}
+
+.selecionar-todos {
+    display: flex;
+    gap: 10px;
+    background: white;
+    padding: 15px 20px;
+    border-radius: 8px;
+    box-shadow: 0 2px 8px rgba(0, 0, 0, 0.15);
+
+}
+
+.selecionar-todos input {
+    cursor: pointer;
+    accent-color: #3d8be5e6;
+    width: 14px;
+    height: 18px;
+}
+
+/*Carrino produtos a cima*/
+
+/*Lista de produtos*/
+.lista-produtos {
+    display: flex;
+    flex-direction: column;
+    margin-top: 25px;
+    height: auto;
+    background: white;
+    padding: 20px;
+    border-radius: 8px;
+    box-shadow: 0 2px 8px rgba(0, 0, 0, 0.15);
+    gap: 20px;
+}
+
+.lista-produtos div {
+    display: flex;
+
+}
+
+.lista-checkbox {
+    width: 14px;
+    height: 14px;
+    accent-color: #2563EB;
+    cursor: pointer;
+}
+
+.lista-img {
+    flex: 30%;
+    height: 100px;
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: contain;
+}
+
+.lista-detalhes {
+    display: flex;
+    flex-direction: column;
+    flex: 50%;
+}
+
+.lista-detalhes .lista-info {
+    justify-content: space-between;
+}
+
+.lista-detalhes .lista-info h4 {
+    font-weight: 400;
+    cursor: pointer;
+}
+
+.lista-detalhes .lista-info h4:hover {
+    color: #2563EB;
+}
+
+.lista-detalhes .lista-info svg {
+    cursor: pointer;
+}
+
+.lista-detalhes .lista-info svg:hover {
+    color: #2563EB;
+}
+
+.lista-arrow {
+    margin-top: 10px;
+    display: flex;
+    align-items: center;
+}
+
+.arrow-calc {
+    border: 1px solid rgba(0, 0, 0, 0.20);
+    padding: 5px 20px;
+    border-radius: 5px;
+    display: flex;
+    gap: 20px;
+    align-items: center;
+}
+
+.arrow-calc:hover {
+    border: 1px solid rgba(0, 0, 0, 0.50);
+
+}
+
+.arrow-calc button {
+    border: none;
+    font-size: 1.2rem;
+    cursor: pointer;
+}
+
+.arrow-calc button:hover {
+    color: #2563EB;
+}
+
+.lista-arrow span {
+    font-size: 12px;
+    margin-left: 10px;
+    color: #6B7280;
+}
+
+.lista-preco {
+    flex: 20%;
+    justify-content: end;
+}
+
+.lista-preco h4 {
+    font-weight: 100;
+}
+
+/* carrinho Resumo*/
+.carrinho-resumo {
+    width: 100%;
+    max-width: 400px;
+    background: #fff;
+    padding: 24px;
+    border-radius: 8px;
+    box-shadow: 0 2px 10px rgba(0, 0, 0, 0.12);
+}
+
+.carrinho-resumo h2 {
+    font-size: 20px;
+    margin-bottom: 24px;
+}
+
+.comprar {
+    display: flex;
+    flex-direction: column;
+    gap: 20px;
+
+    border-top: 1px solid #e5e5e5;
+    padding-top: 20px;
+
+}
+
+.info {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+.info h3 {
+    font-size: 16px;
+    font-weight: 500;
+}
+
+.info span {
+    font-size: 20px;
+    font-weight: 700;
+}
+
+.arrow button {
+    width: 100%;
+    padding: 13px;
+    border: none;
+    border-radius: 8px;
+    background: #8B5CF6;
+    color: #fff;
+    font-size: 16px;
+    font-weight: 600;
+    cursor: pointer;
+    transition: 0.2s;
+}
+
+.arrow button:hover {
+    background: #7C3AED;
+}
+
+/*Carrinho resumo a cima*/
+
+@media screen and (max-width: 884px) {
+
+
+    .lista-img {
+        flex: 20%;
+
+    }
+
+    .lista-detalhes {
+        flex: 60%;
+        margin-left: 15px;
+    }
+
+    .lista-detalhes .lista-info h4 {
+        font-size: .9rem;
+    }
+
+    .lista-detalhes .lista-info svg {
+        width: 20px;
+        height: 20px;
+    }
+}
+
+@media screen and (max-width: 666px) {
+
+    .carrinho-content {
+        display: flex;
+        padding: 0;
+        margin-top: 10px;
+    }
+
+    .carrinho-produtos {
+        flex: 1;
+    }
+
+    .carrinho-resumo {
+        position: fixed;
+        bottom: 0;
+        left: 0;
+        width: 100%;
+        max-width: none;
+        box-sizing: border-box;
+        padding: 15px 20px;
+        background: white;
+        box-shadow: 0 -5px 15px rgba(0, 0, 0, 0.3);
+    }
+
+    .lista-detalhes .lista-info h4 {
+        font-size: 0.8rem;
+        line-height: 1.3;
+        margin: 0;
+    }
+
+    .lista-detalhes .lista-info svg {
+        width: 18px;
+        height: 18px;
+        flex-shrink: 0;
+    }
+
+    .lista-preco {
+        flex: 0 0 auto;
+        margin-left: 8px;
+    }
+
+    .lista-preco h4 {
+        font-size: 0.85rem;
+        white-space: nowrap;
+    }
+}
