@@ -1,57 +1,65 @@
 import './style/IndividualProduct.css';
+
 import {
     IconChevronLeft,
-    IconChevronRight,
-    IconArrowNarrowRight
+    IconChevronRight
 } from '@tabler/icons-react';
-//icons
 
-//alert 
-import toast from 'react-hot-toast'
+import toast from 'react-hot-toast';
 
-import { useState, useEffect, useRef } from 'react'
-import { useNavigate, useParams } from 'react-router-dom'
-import axios from 'axios'
-import { Navigate } from 'react-router-dom';
+import { useState, useEffect, useRef, useContext } from 'react';
 
-//Context
-import { useContext } from 'react';
+import { useNavigate, useParams } from 'react-router-dom';
+
+import axios from 'axios';
+
 import { ProductContext } from '../Context/ProductContext';
 
-//Salvando id na local storage
+// Salvando id na local storage
+
 export function adicionarCarrinho(id) {
-    const carrinho = JSON.parse(localStorage.getItem('cart')) || []
 
-    carrinho.push(id)
+    const carrinho = JSON.parse(localStorage.getItem('cart')) || [];
 
-    localStorage.setItem('cart', JSON.stringify(carrinho))
+    carrinho.push(id);
+
+    localStorage.setItem('cart', JSON.stringify(carrinho));
 
     toast.success('Produto adicionado ao carrinho!', {
         duration: 5000
-    })
+    });
 }
 
 const IndividualProductPage = () => {
+
     const navigate = useNavigate();
+
     const { id } = useParams();
 
-    const [product, setProduct] = useState(null)
+    const [product, setProduct] = useState(null);
 
     const getProduct = async () => {
-        const response = await axios.get(`http://localhost:3000/products/${id}`)
 
-        setProduct(response.data)
-    }
+        const response = await axios.get(
+            `https://e-commerce-74ck.onrender.com/products/${id}`
+        );
+
+        setProduct(response.data);
+    };
 
     useEffect(() => {
-        getProduct()
-    }, [id])
 
-    //individual img
-    const [selectedImage, setSelectedImage] = useState(0)
+        getProduct();
 
-    //Produtos ralacionados
-    const { product: products } = useContext(ProductContext)
+    }, [id]);
+
+    // Individual img
+
+    const [selectedImage, setSelectedImage] = useState(0);
+
+    // Produtos relacionados
+
+    const { product: products } = useContext(ProductContext);
 
     const relatedProducts = product
         ? products.filter(
@@ -59,29 +67,36 @@ const IndividualProductPage = () => {
                 item.category === product.category &&
                 item.id !== product.id
         )
-        : []
+        : [];
 
-    //Rolagem dos card com chatGPT a baixo
-    const cardsRef = useRef(null)
+    // Rolagem dos cards
+
+    const cardsRef = useRef(null);
+
     const scrollCards = () => {
+
         cardsRef.current.scrollBy({
             left: 900,
             behavior: "smooth"
-        })
-    }
+        });
+
+    };
+
     const scrollCardsBack = () => {
+
         cardsRef.current.scrollBy({
             left: -900,
             behavior: "smooth"
-        })
-    }
-    //Rolagem dos card com chatGPT a cima
+        });
+
+    };
 
     return (
-        <div >
 
+        <div>
 
             {product &&
+
                 <div className="individual-product-content">
 
                     <div className="individual-box">
@@ -97,7 +112,9 @@ const IndividualProductPage = () => {
                                         className={`individual-img-option ${selectedImage === index ? 'selected' : ''
                                             }`}
                                         onClick={() => setSelectedImage(index)}
-                                        style={{ backgroundImage: `url(${image})` }}
+                                        style={{
+                                            backgroundImage: `url(${image})`
+                                        }}
                                     >
                                     </div>
 
@@ -107,7 +124,8 @@ const IndividualProductPage = () => {
 
                         </div>
 
-                        <div className="individual-img"
+                        <div
+                            className="individual-img"
                             style={{
                                 backgroundImage: `url(${product.images[selectedImage]})`
                             }}
@@ -117,9 +135,13 @@ const IndividualProductPage = () => {
                         <div className="individual-info">
 
                             <div className="product-meta">
+
                                 <span>{product.category}</span>
+
                                 <span>|</span>
+
                                 <span>{product.sold}</span>
+
                             </div>
 
                             {product.offerOfTheDay === true && (
@@ -132,19 +154,28 @@ const IndividualProductPage = () => {
                                 R$ {product.price}
                             </span>
 
-                            <h1> R$ {(product.price * 0.82).toFixed(2)}</h1>
+                            <h1>
+                                R$ {(product.price * 0.82).toFixed(2)}
+                            </h1>
 
                             <div className="individual-description">
 
                                 <p>{product.description.title}</p>
 
                                 <ul>
+
                                     {product.description.items.map((item, index) => (
-                                        <li key={index}>{item}</li>
+
+                                        <li key={index}>
+                                            {item}
+                                        </li>
+
                                     ))}
+
                                 </ul>
 
                             </div>
+
                         </div>
 
                         <div className="individual-actions">
@@ -155,22 +186,30 @@ const IndividualProductPage = () => {
 
                             <button
                                 className="add-cart"
-                                onClick={() => adicionarCarrinho(product.id)}>
+                                onClick={() => adicionarCarrinho(product.id)}
+                            >
                                 Adicionar ao carrinho
                             </button>
-                            <div className="store-info" >
+
+                            <div className="store-info">
+
                                 <div
                                     className="store-img"
-                                    style={{ backgroundImage: `url(${product.images[0]})` }}
-                                ></div>
+                                    style={{
+                                        backgroundImage: `url(${product.images[0]})`
+                                    }}
+                                >
+                                </div>
 
                                 <div className="store-overlay">
+
                                     <h3>{product.store}</h3>
+
                                     <span>{product.sold}</span>
+
                                 </div>
 
                             </div>
-
 
                         </div>
 
@@ -182,7 +221,10 @@ const IndividualProductPage = () => {
 
                         <h4>Produtos relacionados</h4>
 
-                        <div className="produtos-relacionados-cards" ref={cardsRef}>
+                        <div
+                            className="produtos-relacionados-cards"
+                            ref={cardsRef}
+                        >
 
                             {relatedProducts.map((item) => (
 
@@ -190,10 +232,8 @@ const IndividualProductPage = () => {
                                     className="produto-relacionado-card"
                                     key={item.id}
                                     onClick={() => {
-                                        navigate(`/produto/${item.id}`)
-                                        window.location.reload()
+                                        navigate(`/produto/${item.id}`);
                                     }}
-
                                 >
 
                                     <div
@@ -201,13 +241,17 @@ const IndividualProductPage = () => {
                                         style={{
                                             backgroundImage: `url(${item.images[0]})`
                                         }}
-                                    ></div>
+                                    >
+                                    </div>
 
                                     <p>{item.title}</p>
 
                                     <div className="produto-relacionado-price">
+
                                         R$<h4>{item.price}</h4>
+
                                         <span>{item.sold}</span>
+
                                     </div>
 
                                     <span>Frete grátis</span>
@@ -239,9 +283,11 @@ const IndividualProductPage = () => {
                     </div>
 
                 </div>
-            }
-        </div>
-    )
-}
 
-export default IndividualProductPage
+            }
+
+        </div>
+    );
+};
+
+export default IndividualProductPage;

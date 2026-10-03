@@ -1,56 +1,52 @@
-//react-router-dom
-import { useSearchParams } from 'react-router-dom'
+import { useSearchParams, useNavigate } from 'react-router-dom';
+import { useContext } from 'react';
 
-import { useNavigate } from 'react-router-dom';
-//Context
-import { useContext } from "react"
 import { ProductContext } from '../Context/ProductContext';
 
 const SearchProductPage = () => {
-    const { product } = useContext(ProductContext)
 
-    //Search
-    const [searchParams] = useSearchParams()
-    const busca = searchParams.get('busca')
-    const oferta = searchParams.get('oferta')
+    const { product } = useContext(ProductContext);
 
-    //navlinkSearch
-    const categoria = searchParams.get('categoria')
+    const [searchParams] = useSearchParams();
+
+    const busca = searchParams.get('busca');
+    const oferta = searchParams.get('oferta');
+    const categoria = searchParams.get('categoria');
 
     const produtosFiltrados = product.filter((item) => {
 
         if (busca) {
-            return item.title.toLowerCase().includes(busca.toLowerCase())
+            return item.title.toLowerCase().includes(busca.toLowerCase());
         }
 
         if (categoria) {
-            return item.category === categoria
+            return item.category === categoria;
         }
 
         if (oferta) {
-            return item.offerOfTheDay === true
+            return item.offerOfTheDay === true;
         }
 
-        return true
-    })
+        return true;
+    });
 
-    //navigate
-    const navigate = useNavigate()
+    const navigate = useNavigate();
 
     return (
-
-        <div className="products-grid"
+        <div
+            className="products-grid"
             style={{ marginTop: '10px' }}
         >
 
             {produtosFiltrados.map((product) => (
+
                 <div
                     className="product-item"
                     key={product.id}
                     onClick={() => {
-                        navigate(`/produto/${product.id}`)
-                        window.location.reload()
-                    }}>
+                        navigate(`/produto/${product.id}`);
+                    }}
+                >
 
                     <div
                         className="product-image"
@@ -69,11 +65,11 @@ const SearchProductPage = () => {
                     <span>Frete grátis</span>
 
                 </div>
+
             ))}
 
         </div>
+    );
+};
 
-    )
-}
-
-export default SearchProductPage
+export default SearchProductPage;

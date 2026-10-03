@@ -19,9 +19,7 @@ export const ProductContextProvider = ({ children }) => {
     };
 
     useEffect(() => {
-
         getItems();
-
     }, []);
 
     return (
